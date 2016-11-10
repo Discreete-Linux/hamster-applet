@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="statistics" xml:lang="ro">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Notă privind interpretarea statisticilor.</desc>
+</info>
+<title>Statistici</title>
+
+<p>Rezultatele care sunt accesibile prin intermediul legăturii <gui style="button">Arată statisticile</gui> sunt experimentale și sunt o interpretare a acțiunilor. Această interpretare ar trebui să fie comparată cu observațiile dumneavoastră.</p>
+<p>Cu toate acestea, „Începutul și sfârșitul” ar trebui să vă facă o idee cu privire la timpul dumneavoastră activ.</p>
+</page>

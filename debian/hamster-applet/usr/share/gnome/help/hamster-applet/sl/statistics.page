@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="statistics" xml:lang="sl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Opomba o interpretaciji statistike.</desc>
+</info>
+<title>Statistika</title>
+
+<p>Do rezultatov je mogoče dostopati preko povezave <gui style="button">Pokaži statistiko</gui>. Statistika je preizkusna in je interpretacija dejstev. Primerjajte jo s svojimi opazovanji. Popravki so dobrodošli.</p>
+<p>Statistika "Začetki in konci" bi vam morala dati približek vašega dejavnega časa. </p>
+</page>

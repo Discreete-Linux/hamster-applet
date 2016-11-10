@@ -1,0 +1,11 @@
+--- a/src/hamster/reports.py
++++ b/src/hamster/reports.py
+@@ -118,7 +118,7 @@
+ SUMMARY:%(name)s
+ DESCRIPTION:%(description)s
+ END:VEVENT
+-""" % fact)
++""" % {"category":fact.category,"start_time":fact.start_time,"end_time":fact.end_time,"name":fact.activity,"description":fact.description})
+ 
+     def _finish(self, file, facts):
+         self.file.write("END:VCALENDAR\n")

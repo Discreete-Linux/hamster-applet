@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="zh_TW">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>從時間追蹤程式將資料匯出。</desc>
+</info>
+<title>報告與匯出</title>
+
+<p>
+    Apart from the HTML format that is offered by default in the Save report
+    dialog, the format drop-down allows you to choose TSV (Tab Separated Values, good for
+    spreadsheets), XML, and iCal formats.
+</p>
+<p>
+    For programmatic access, there is D-Bus API, that can be introspected
+    using tools like <link href="https://fedorahosted.org/d-feet/">D-Feet</link>.
+</p>
+
+<note style="info">
+    <p>要將資料「送出」時間追蹤程式最快的方式就是產生 HTML 報告。當按住 <key>Ctrl</key> 鍵時，選擇所有需要的儲存格，然後複製並將它們貼到目標應用程式中。</p>
+</note>
+</page>

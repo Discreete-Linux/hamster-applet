@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index" xml:lang="zh_CN">
+
+  <info>
+    <title type="text">时间追踪器</title>
+    <title type="link">时间追踪器</title>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享协议 3.0</p>
+    </license>
+  </info>
+
+  <title>时间追踪器</title>
+</page>

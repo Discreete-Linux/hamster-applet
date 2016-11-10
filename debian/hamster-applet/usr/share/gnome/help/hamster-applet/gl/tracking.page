@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="tracking" xml:lang="gl">
+<info>
+    <link type="seealso" xref="input"/>
+    <link type="guide" xref="index"/>
+    <desc>Suxestións sobre como xestionar as súas actividades con efectividade.</desc>
+</info>
+
+<title>Como xestionar o tempo</title>
+
+<p>Os seus hábitos de xestión de tempo deberán depender da razón pola que recolecta os datos. Que quere facer con eles? É simple curiosidade ou unha necesidade de traballo? E en que detalle lle interesa os resultados?</p>
+
+<section id="granularity">
+<title>Granularidade</title>
+<p>Unha pauta suxerida é ter entre 5 e 30 actividades ao día.</p>
+<p>A intención do <app>Xestor de tempo</app> é evitar os microseguimentos de tal forma que o usuario non gaste máis tempo no seguimento que nas actividades en si. Pero non seguir con suficiente detalle podería acabar con información insuficiente un mes despois.</p>
+</section>
+
+<section id="fields">
+<title>Que debería escribir en cada caixa?</title>
+
+<p>Para actividades sinxelas que non teñen un proxecto use a acción como o nome da <gui>actividade</gui> e a <gui>categoría</gui> para un contexto máis amplo. Exemplo: <input>comer@traballo</input>.</p>
+<p>Para un seguimento máis sofisticado tente resumir a súa actividade en unha ou dúas palabras («árbore da casa», «proxecto x», ou similar) e use ese resumo no campo <gui>actividade</gui>. Use a <gui>categoría</gui> para describir a actividade no seu contexto máis amplo. ¿é un traballo privado ou outra cousa? Finalmente use as <gui>etiquetas</gui> para describir a acción actual; xa sexa lendo, construíndo ou pintando.</p>
+<p>Esta aproximación permitiralle ver canta lectura realizou para todos os seus proxectos (por etiqueta), canto tempo empregou nos seus hobbies (por categoría) e canto tempo adicou ao proxecto x que estivo analizando (por actividade e etiqueta).</p>
+</section>
+
+<section>
+<title>Suxestións para mellorar o seguimento dos seus datos</title>
+
+<list>
+    <item><p>Nome das actividades para que se poidan distinguir facilmente entre elas. O nome da actividade é tamén o único que aparece no panel. ¿Será capaz de determinar en que está traballando simplemente mirando o nome da súa actividade?</p></item>
+
+    <item><p>Manteña o seu número de categorías baixo (entre 3 e 7) e elixa unhas que probabelmente non cambien ao longo do tempo. Tamén, mantéñaas xenéricas. Por exemplo: «traballo», «privado», «varios».</p></item>
+
+    <item><p>Use o campo de descrición para información a curto prazo, como números de erros. A busca na xanela de vista xeral tamén busca no campo de descrición, de tal forma que buscar actividades onde menciona o erro ou chave específica, é tan sinxelo como escribilo na caixa de busca e premer <gui>Intro</gui>.</p></item>
+
+    <item><p>As actividades e etiquetas poden aparecer e desaparecer segundo as necesidades. Unha vez que crea que rematou unha actividade; quítea para que non apareza no autocompletado. Non se preocupe, os feitos (actividades no rexistro) quedarán intactos. É simplemente a «lista operacional».</p></item>
+</list>
+</section>
+
+
+</page>

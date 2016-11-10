@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="zh_TW">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>加速活動項目的小技巧。</desc>
+</info>
+<title>輸入</title>
+
+<p>要開始追蹤，在入視窗中輸入活動名稱然後按下鍵盤上的<key>Enter</key>按鍵。有一些些技巧能允許您一次記載許多細節。</p>
+
+<steps>
+    <item><p>使用 @ 符號來加入分類</p></item>
+    <item><p>任何在逗號 (,) 之後的東西都會儲存在描述欄位</p></item>
+    <item><p>To specify time on the fly, enter it first in the input box</p></item>
+</steps>
+
+<p>一些例子：</p>
+<example>
+    <code>12:30-12:45 澆花</code>
+    <p>Forgot to note the important act of watering flowers over lunch.</p>
+</example>
+<example>
+    <code>tomatoes@garden, digging holes</code>
+    <p>
+        Need more tomatoes in the garden. Digging holes is purely informational,
+        so added it as a description.
+    </p>
+</example>
+<example>
+    <code>-7 existentialism, thinking about the vastness of the universe</code>
+    <p>
+        Corrected information by informing application that I've been
+        doing something else for the last seven minutes. Relative times only
+        work for ongoing activities without an end time.
+    </p>
+</example>
+
+<p>
+    On top of that you can add tags in the tag input field.
+    Tags are delimited by a comma. Press the <key>Tab</key> when the suggestion
+    box appears to complete the input to the first matching tag.
+</p>
+
+</page>

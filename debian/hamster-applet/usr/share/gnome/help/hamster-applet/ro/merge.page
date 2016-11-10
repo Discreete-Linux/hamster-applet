@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="ro">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Rezolvarea automată a conflictelor.</desc>
+</info>
+<title>Divizarea activităților.</title>
+
+<p><app>Pontaj activități</app> face tot posibilul pentru a evita suprapunerile de activități. Dacă veți crea o activitate în mijlocul unei activități existente, fosta activitate va fi împărțită în două. În aceste cazuri de suprapunere, intrările anterioare vor fi micșorate.</p>
+<note style="info">
+    <p>Fuzionarea poate fi la îndemână atunci când introduceți informații pentru o zi întreagă. Începeți prin introducerea primei activități și selectați caseta „în curs” pentru timpul de finalizare. Pentru următoarea activitate din nou selectați doar ora de începere și marcați-o ca fiind în desfășurare. Observați modul în care timpul de încheiere a activității anterioare s-a ajustat la ora de începere a uneia noi. Repetați procesul până când sunteți fericit!</p>
+</note>
+</page>

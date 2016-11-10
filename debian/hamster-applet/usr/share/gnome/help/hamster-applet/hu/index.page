@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index" xml:lang="hu">
+
+  <info>
+    <title type="text">Időnyilvántartás</title>
+    <title type="link">Időnyilvántartás</title>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Időnyilvántartás</title>
+</page>

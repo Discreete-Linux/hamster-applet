@@ -1,0 +1,3 @@
+version=3
+http://ftp.gnome.org/pub/GNOME/sources/hamster-applet/([\d\.]+[02468])/ \
+        hamster-applet-(.*)\.tar\.gz

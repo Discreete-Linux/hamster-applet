@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="sl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Kako ustvariti varnostno kopijo podatkovne zbirke dejavnosti.</desc>
+</info>
+<title>Varnostna kopija</title>
+
+<p>Dejavnosti so shranjene v podatkovni zbirki SQLite, shranjeni v <file>~/.local/share/hamster-applet/hamster.db</file>. Ustvariti je mogoče varnostno kopijo datoteke in jo po potrebi obnoviti. Program bo po kratkem času samodejno znova naložil podatke.</p>
+<note style="info">
+    <p>Za ogled vsebune podatkovne zbirke predlagamo link href="https://addons.mozilla.org/en-US/firefox/addon/5817"&gt;<app>Upravljalnik SQLite</app></p>
+</note>
+</page>

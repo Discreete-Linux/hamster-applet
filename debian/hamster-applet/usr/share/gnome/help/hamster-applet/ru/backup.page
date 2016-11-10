@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="ru">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Как архивировать базу данных занятий.</desc>
+</info>
+<title>Архивирование данных</title>
+
+<p>Информация о занятиях сохраняется в базе данных SQLite, расположенной в <file>~/.local/share/hamster-applet/hamster.db</file>. Этот файл может быть заархивирован или восстановлен в ходе работы. Приложение перезагрузит данные автоматически через какое-то время.</p>
+<note style="info">
+    <p>Для просмотра содержимого базы данных мы можем предложить использовать <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>SQLite Manager</app></link> для браузера Mozilla Firefox.</p>
+</note>
+</page>

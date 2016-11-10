@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="es">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Trucos para acelerar la entrada de actividades</desc>
+</info>
+<title>Entrada</title>
+
+<p>Para iniciar un seguimiento, escriba el nombre de la actividad en la caja de entrada y pulse <key>Intro</key>. No obstante, existen unos pocos trucos que le permitirán especificar más detalles al vuelo:</p>
+
+<steps>
+    <item><p>Use el símbolo @ para añadir una categoría</p></item>
+    <item><p>Todo lo que vaya detrás de una coma (,) se almacenará en el campo de descripción</p></item>
+    <item><p>Para especificar una hora al vuelo, introdúzcala como el primer campo en la caja de entrada</p></item>
+</steps>
+
+<p>Algunos ejemplos:</p>
+<example>
+    <code>14:30-14:45 regar plantas</code>
+    <p>Se olvidó del importante acto de regar las plantas después de la comida.</p>
+</example>
+<example>
+    <code>tomates@jardín, hacer agujeros</code>
+    <p>Se necesitan más tomates en el jardín. Cavar agujeros es puramente informativo, así que se añade como una descripción.</p>
+</example>
+<example>
+    <code>-7 existencialismo, pensar acerca de la inmensidad del universo</code>
+    <p>Información corregida informando a la aplicación que se ha estado ocupado en otro asunto durante los últimos siete minutos. Los tiempos relativos sólo funcionan con los tiempos de finalización, esto es, para la actividad más reciente.</p>
+</example>
+
+<p>Sobre ello puede añadir etiquetas en el campo de entrada de etiquetas. Las etiquetas están delimitadas por comas. Pulsar <key>Tab</key> cuando aparezca la caja de sugerencias completará la entrada con la primera etiqueta coincidente.</p>
+
+</page>

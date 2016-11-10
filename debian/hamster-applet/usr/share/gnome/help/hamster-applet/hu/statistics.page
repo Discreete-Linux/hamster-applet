@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="statistics" xml:lang="hu">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>A statisztika értelmezése.</desc>
+</info>
+<title>Statisztika</title>
+
+<p>A <gui style="button">Statisztika megjelenítése</gui> hivatkozáson keresztül elérhető eredmények kísérletiek, és a tények értelmezését képviselik. Ezt az értelmezést vesse össze megfigyeléseivel. A programhoz küldött javításokat nagyra értékeljük!</p>
+<p>Azonban a „Kezdet és vég” nagyjából pontosan összefoglalja az aktívan töltött idejét.</p>
+</page>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="gl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Como facer unha copia de seguridade da base de datos da actividade.</desc>
+</info>
+<title>Copia de seguridade</title>
+
+<p>As actividades almacénanse nunha base de datos SQLite, almacenada en <file>~/.local/share/hamster-applet/hamster.db</file>. Pode facer unha copia de seguridade do ficheiro e restáureo cando queira. O aplicativo recargará os datos automáticamente despois dun pequeno tempo.</p>
+<note style="info">
+    <p>Para ver os contidos da base de datos podemos suxerirlle o uso de <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>SQLite Manager</app></link> para Mozilla Firefox.</p>
+</note>
+</page>

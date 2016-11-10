@@ -1,0 +1,24 @@
+Author: Jamie Strandboge <jamie@canonical.com>
+Description: if we somehow got a click with no selected start_time, then
+ reset the selection but don't update the widget
+Bug: https://bugzilla.gnome.org/show_bug.cgi?id=669478
+Bug-Ubuntu: https://launchpad.net/bugs/926481
+
+Index: hamster-applet-2.91.3+git20110714.9aefd7/src/hamster/widgets/dayline.py
+===================================================================
+--- hamster-applet-2.91.3+git20110714.9aefd7.orig/src/hamster/widgets/dayline.py	2012-02-06 09:29:48.000000000 -0600
++++ hamster-applet-2.91.3+git20110714.9aefd7/src/hamster/widgets/dayline.py	2012-02-06 09:39:01.000000000 -0600
+@@ -182,6 +182,13 @@
+     def on_click(self, scene, event, target):
+         self.drag_start = None
+ 
++        # If self.selection.start_time is somehow None, just reset the selection.
++        # This can sometimes happen when dragging left to right in small
++        # increments. https://bugzilla.gnome.org/show_bug.cgi?id=669478
++        if self.selection == None or self.selection.start_time == None:
++            self.new_selection()
++            return
++
+         start_time = self.selection.start_time
+         if start_time > dt.datetime.now():
+             start_time = dt.datetime.now()

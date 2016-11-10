@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="sl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Triki za hitrejše vnašanje dejavnosti.</desc>
+</info>
+<title>Vnos</title>
+
+<p>Za začetek sledenje vtipkajte ime dejavnosti v vnosno polje in pritisnite <key>Vnosno tipko</key>. Obstaja nekaj trikov, ki vam omogočajo sprotno navedbo več podrobnosti.</p>
+
+<steps>
+    <item><p>Uporabite simbol @ za dodajanje kategorija</p></item>
+    <item><p>Vse za vejico (,) bo bilo shranjeno v polje opisa</p></item>
+    <item><p>Za sprotno navedbo časa, ga najprej vnesite v vnosno polje</p></item>
+</steps>
+
+<p>Nekaj primerov:</p>
+<example>
+    <code>12:30-12:45 zalivanje rož</code>
+    <p>Pozabil zaliti rože po kosilu.</p>
+</example>
+<example>
+    <code>paradižniki@vrt, kopanje lukenj</code>
+    <p>Potrebujem več paradižnikov na vrtu. Kopanje lukenj je podrobnost, zato je dodana kot opis.</p>
+</example>
+<example>
+    <code>-7 eksistencializem, razmišljanje o ogromnih razsežnostih vesolja</code>
+    <p>Popravljanje podatkov z obveščanjem programa, da sem zadnjih 7 minut počenjal nekaj drugega. Relativni časi delujejo le za trajajoče dejavnosti brez končnega časa.</p>
+</example>
+
+<p>Poleg tega lahko v polje vnosa oznak dodate oznake. Oznake so ločene z vejicami. Pritisnite <key>Tabulator</key>, ko polje predlogov samodejno dopolni vnos do prve ujemajoče se oznake.</p>
+
+</page>

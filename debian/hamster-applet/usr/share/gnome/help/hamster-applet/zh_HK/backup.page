@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="zh_HK">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>如何備份活動資料庫。</desc>
+</info>
+<title>備份</title>
+
+<p>活動都儲存在 SQLite 資料庫中，就在 <file>~/.local/share/hamster-applet/hamster.db</file>。這個檔案可以隨時備份或還原。程式會在一段時間後自動重新載入資料。</p>
+<note style="info">
+    <p>想要看看資料庫的內容，我們建議使用 Mozilla Firefox 的 <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>SQLite Manager</app></link>。</p>
+</note>
+</page>

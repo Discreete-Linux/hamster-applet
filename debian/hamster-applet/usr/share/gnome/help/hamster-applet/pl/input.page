@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="pl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Sztuczki przyspieszające wprowadzanie czynności.</desc>
+</info>
+<title>Śledzenie</title>
+
+<p>W celu rozpoczęcia śledzenia, należy wprowadzić nazwę czynności w pole tekstowe i nacisnąć klawisz <key>Enter</key>. Istnieje jednak kilka sztuczek, pozwalających na podanie większej ilości szczegółów:</p>
+
+<steps>
+    <item><p>Wykorzystanie znaku @ do dodawania kategorii.</p></item>
+    <item><p>Treść znajdująca się po przecinku (,) zostanie zapisana jako opis.</p></item>
+    <item><p>Aby podać czas, należy wprowadzić go na pierwszym miejscu w polu tekstowym.</p></item>
+</steps>
+
+<p>Kilka przykładów:</p>
+<example>
+    <code>14:30-14:45 podlewanie kwiatów</code>
+    <p>Zapomniano o podlaniu kwiatów podczas przerwy obiadowej.</p>
+</example>
+<example>
+    <code>pomidory@ogród, kopanie dołków</code>
+    <p>Potrzeba więcej pomidorów w ogrodzie. Kopanie dołków jest tylko czynnością poboczną, więc podano jako opis.</p>
+</example>
+<example>
+    <code>-7 egzystencjalizm, rozmyślanie nad ogromem wszechświata</code>
+    <p>Poprawiono informacje poprzez wprowadzenie danych o czynnościach dokonanych przez ostatnie siedem minut. Czasy względne działają poprawnie tylko dla czynności bez określonego czasu zakończenia.</p>
+</example>
+
+<p>Ponadto można wprowadzić etykiety w polu tekstowym o nazwie „Etykiety”. Do ich rozdzielania należy skorzystać z przecinka. Naciśnięcie klawisza <key>Tab</key> w momencie pojawienia się okienka podpowiedzi spowoduje uzupełnienia etykiety o pierwszą zaznaczoną pozycję.</p>
+
+</page>

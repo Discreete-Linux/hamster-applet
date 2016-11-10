@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="cs">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Triky pro zrychlení zadávání činností</desc>
+</info>
+<title>Zadávání dat</title>
+
+<p>Pro spuštění sledování napište název činnosti do vstupního pole a stiskněte klávesu <key>Enter</key>. Nicméně existuje několik triků, které vám ihned umožní stanovit více podrobností:</p>
+
+<steps>
+    <item><p>Použití znaku @ přidá kategorii</p></item>
+    <item><p>Všechno za znakem čárky (,) bude uloženo v poli popis</p></item>
+    <item><p>Pro okamžité stanovení času je nutné, aby byl zadán do vstupního pole jako první.</p></item>
+</steps>
+
+<p>Několik příkladů:</p>
+<example>
+    <code>12:30-12:45 zalévání květin</code>
+    <p>Nezapomeňte si zaznamenat důležitou činnost - zalévání květin přes oběd.</p>
+</example>
+<example>
+    <code>rajčata@zahrada, vyhloubení jamek</code>
+    <p>V zahradě potřebujete více rajčat. Vyhloubení jamek je čistě informativní, takže slouží jako popis.</p>
+</example>
+<example>
+    <code>-7 existencialismus, přemýšlení o rozlehlosti vesmíru</code>
+    <p>Opravná informace sdělující aplikaci, že před sedmi minutami jste dělali něco jiného. Relativní časy fungují pouze u probíhajících činností bez časů ukončení.</p>
+</example>
+
+<p>K tomu všemu je možné do vstupního pole pro štítky přidávat štítky. Štítky jsou oddělené čárkou. Když se zobrazí pole s návrhy, napište první písmeno štítku a stiskněte klávesu <key>Tab</key> pro dokončení záznamu prvního odpovídajícího štítku.</p>
+
+</page>

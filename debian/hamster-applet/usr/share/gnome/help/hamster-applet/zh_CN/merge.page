@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="zh_CN">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>自动解决矛盾。</desc>
+</info>
+<title>分离活动</title>
+
+<p><app>时间追踪器</app>  可以非常好地解决各个活动的重叠部分。如果你在一个活动时间段内，创建了另一个活动，表格将会分成两个。在其他重叠情况下，原来的项目会避让。</p>
+<note style="info">
+    <p>一整天的输入信息也很容易合并，选中第一个开始的活动，然后在最后的时间打勾“正在进行中”复选框。第二个活动也点开始时间然后标记正在进行。检查上一个活动的结束时间，已调整为一个新活动的开始时间，重复这些过程到完工！</p>
+</note>
+</page>

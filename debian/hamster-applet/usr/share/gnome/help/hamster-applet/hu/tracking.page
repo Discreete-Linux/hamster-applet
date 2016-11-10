@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="tracking" xml:lang="hu">
+<info>
+    <link type="seealso" xref="input"/>
+    <link type="guide" xref="index"/>
+    <desc>Tippek tevékenységeinek hatékony nyilvántartásához.</desc>
+</info>
+
+<title>Hogyan tartsa nyilván idejét</title>
+
+<p>Időnyilvántartási szokásait az adatgyűjtés oka diktálja. Mit szeretne tenni az adatokkal? Egyszerűen csak kíváncsi, vagy munkája megköveteli? Milyen részletességben kíváncsi az eredményekre?</p>
+
+<section id="granularity">
+<title>Részletesség</title>
+<p>A javasolt sebesség napi 5 és 30 közötti tevékenység naponta.</p>
+<p>Az <app>Időnyilvántartó</app> célja a mikronyilvántartás elkerülése, nehogy több időt töltsön a nyilvántartással, mint a tényleges tevékenységekkel. Azonban a nem elég részletes nyilvántartás azt is eredményezheti, hogy egy hónap múlva már nem lesznek értelmezhetők az adatok.</p>
+</section>
+
+<section id="fields">
+<title>Mit írjak az egyes mezőkbe?</title>
+
+<p>Egyszerű tevékenységekhez, amelyek nem egy projekt részei, használja a <gui>tevékenység</gui> nevét, és bővebb kontextushoz a <gui>kategóriát</gui>. Például: <input>ebéd@munka</input>.</p>
+<p>A részletesebb nyilvántartás érdekében próbálja meg tevékenységeit egy vagy két szóban összefoglalni („kutyaház-barkácsolás”, „X projekt”, vagy ilyesmi), és használja ezt az összefoglalót a <gui>tevékenység</gui> mezőben a tevékenység szélesebb kontextusban való leírásához – magánjellegű vagy munkahelyi, vagy valami más? Végül <gui>címkék</gui> használatával írja le a tényleges tevékenységet – olvasás vagy építés, írás vagy festés.</p>
+<p>Ez a megközelítés lehetővé teszi, hogy mennyit töltött olvasással az összes projektjében (címke szerint), mennyi időt töltött hobbijaival (kategória szerint), és az X projekten a munkával töltött időből mennyit töltött elemzéssel (tevékenység és címke szerint).</p>
+</section>
+
+<section>
+<title>Tippek a nyilvántartási adatok javításához</title>
+
+<list>
+    <item><p>Tevékenységeit nevezze el, hogy egyszerűen megkülönböztethesse azokat egymástól. A tevékenység neve az egyetlen információ, ami a panelen megjelenik. Meg fogja tudni határozni, hogy min dolgozik, ha csak a tevékenység nevét látja?</p></item>
+
+    <item><p>A kategóriák listáját fogja rövidre (3-7 elem), és válasszon várhatóan később sem változó és általános neveket. Például: „munka”, „személyes”, „egyéb”.</p></item>
+
+    <item><p>A leírás mezőt rövid távú információkhoz, például referenciaszámokhoz használhatja. Az <gui>Áttekintés</gui> ablakban történő keresés a leírás mezőben is keres, így az adott referenciaszámot tartalmazó tevékenységek megkeresése a keresés mezőbe gépeléssel, és az <key>Enter</key> megnyomásával egyszerűen elvégezhető.</p></item>
+
+    <item><p>A tevékenységek és címkék igény szerint változhatnak. Ha úgy gondolja, hogy egy tevékenységgel kész van, távolítsa el azt, így nem jelenik meg többé az automatikus kiegészítésben. Ne aggódjon: a tények (a naplóban lévő tevékenységek) nem kerülnek törlésre. Ez csak a „műveleti lista”.</p></item>
+</list>
+</section>
+
+
+</page>

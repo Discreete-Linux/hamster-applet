@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="zh_CN">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>如何备份活动的数据库。</desc>
+</info>
+<title>备份</title>
+
+<p>活动存储在一个 SQLite 数据库里，位于 <file>~/.local/share/hamster-applet/hamster.db</file>。应用程序会在一个短时间后自动重载数据。</p>
+<note style="info">
+    <p>要查看数据库的内容，我们建议您使用 Mozilla Firefox 的 <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>SQLite 管理器</app></link> 扩展。</p>
+</note>
+</page>

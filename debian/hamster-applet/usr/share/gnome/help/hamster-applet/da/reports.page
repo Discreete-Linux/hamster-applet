@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="da">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Hent data ud af tidsstyringen.</desc>
+</info>
+<title>Rapport og eksport</title>
+
+<p>Udover HTML-formatet der tilbydes som standard i dialogen Gem rapport, giver rullegardinet for format dig mulighed for at vælge TSV- (Tab/indryk adskilte værdier, velegnet til regneark), XML- og iCal-formater.</p>
+<p>For programadgang er der D-Bus API, som kan introspiceres med brug af værktøjer som <link href="https://fedorahosted.org/d-feet/">D-Feet</link>.</p>
+
+<note style="info">
+    <p>Den hurtigste måde at få data "ud" af tidsstyringen er ved at danne en HTML-rapport. Mens tasten <key>Ctrl</key> holdes nede, vælges alle de krævede celler, og så kopieres og indsættes de i målprogrammet.</p>
+</note>
+</page>

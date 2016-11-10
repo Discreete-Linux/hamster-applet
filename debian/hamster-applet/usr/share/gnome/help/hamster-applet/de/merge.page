@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="de">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Automatisches Lösen von Konflikten.</desc>
+</info>
+<title>Teilen von Tätigkeiten</title>
+
+<p>Die <app>Zeiterfassung</app> tut ihr Bestes, Überschneidungen in den Tätigkeiten zu vermeiden. Falls Sie eine Tätigkeit innerhalb einer vorhandenen Tätigkeit erstellen, wird die erste vorhandene Tätigkeit in zwei unterteilt. In anderen Überschneidungsfällen werden vorherige Einträge geschrumpft.</p>
+<note style="info">
+    <p>Diese Zusammenführung kann ins Blickfeld rücken, wenn Sie die Information auf einen ganzen Tag ausdehnen. Beginnen Sie mit der Eingabe der ersten Tätigkeit und aktivieren Sie das Ankreuzfeld <gui>im Gange</gui> für die Endzeit. Beobachten Sie, wie die Endzeit der vorhergehenden Tätigkeit an die Startzeit der neuen Tätigkeit angepasst wird. Wiederholen Sie diesen Prozess, bis Sie zufrieden sind!</p>
+</note>
+</page>

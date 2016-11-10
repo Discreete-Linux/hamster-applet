@@ -1,0 +1,324 @@
+hamster-applet (2.91.3+git20120514.b9fec3e1-1ubuntu1dsctl1) jessie; urgency=low
+
+  * Patched iCal export
+
+ -- Discreete Linux Team <info@discreete-linux.org>  Mon, 15 Sep 2014 14:23:15 +0000
+
+hamster-applet (2.91.3+git20120514.b9fec3e1-1ubuntu1) raring-proposed; urgency=low
+
+  * Merge from Debian. Remaining changes:
+    - 01-dont-fail-on-applet-import.patch
+    - 02-dont-traceback-on-quit.patch (refreshed)
+    - 04-lp926481.patch
+    - 05-lp979707.patch
+    - debian/control: Recommends hamster-indicator
+    - debian/rules: don't remove applet.py and applet.ui as they are needed by
+      indicator-hamster (continue to not install the other files)
+  * Dropped:
+    - 03-check-self-app-window.patch: no longer needed
+  * debian/patches/06-gpg-dbus-update.patch: Updates in DBus interface of GTG.
+    Patch thanks to Izidor Matusov
+
+ -- Jamie Strandboge <jamie@ubuntu.com>  Fri, 22 Mar 2013 15:35:38 -0500
+
+hamster-applet (2.91.3+git20120514.b9fec3e1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 25 Jun 2012 20:53:21 +0200
+
+hamster-applet (2.91.3+git20120211.9ebb889-2) unstable; urgency=low
+
+  * Don't remove complete usr/lib/hamster-applet/ directory along with the
+    D-Bus services but only the hamster-applet script. Closes: #659567
+
+ -- Michael Biebl <biebl@debian.org>  Sun, 12 Feb 2012 09:43:50 +0100
+
+hamster-applet (2.91.3+git20120211.9ebb889-1) unstable; urgency=low
+
+  * New upstream Git snapshot.
+
+ -- Michael Biebl <biebl@debian.org>  Sat, 11 Feb 2012 22:16:40 +0100
+
+hamster-applet (2.91.3+git20120204.b11571c.dfsg-1) unstable; urgency=low
+
+  [ Josselin Mouette ]
+  * Replace python-gobject by python-gobject-2.
+  * Update repository URL.
+
+  [ Michael Biebl ]
+  * New upstream Git snapshot.
+  * Repack sources and ship an unpacked waf binary following the instructions
+    from http://wiki.debian.org/UnpackWaf. Closes: #654474
+  * Remove generated .pyc files during clean.
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 06 Feb 2012 15:52:29 +0100
+
+hamster-applet (2.91.3+git20110714.9aefd7-2ubuntu5) raring; urgency=low
+
+  * debian/patches/05-lp979707.patch: fix a crash in Overview (LP: #979707)
+
+ -- Gediminas Paulauskas <menesis@pov.lt>  Mon, 07 Jan 2013 15:52:53 +0200
+
+hamster-applet (2.91.3+git20110714.9aefd7-2ubuntu4) quantal; urgency=low
+
+  * Recommends hamster-indicator (LP: #1049078)
+
+ -- Jamie Strandboge <jamie@ubuntu.com>  Tue, 25 Sep 2012 08:49:16 -0500
+
+hamster-applet (2.91.3+git20110714.9aefd7-2ubuntu3) precise; urgency=low
+
+  * debian/patches/04-lp926481.patch: if we somehow got a click with no
+    selected start_time, then reset the selection but don't update the widget
+    (LP: #926481)
+
+ -- Jamie Strandboge <jamie@ubuntu.com>  Mon, 06 Feb 2012 07:56:53 -0600
+
+hamster-applet (2.91.3+git20110714.9aefd7-2ubuntu2) precise; urgency=low
+
+  * debian/patches/03-check-self-app-window.patch: verify that self.app.window
+    is not None (LP: #918487)
+
+ -- Jamie Strandboge <jamie@ubuntu.com>  Thu, 26 Jan 2012 08:53:18 -0600
+
+hamster-applet (2.91.3+git20110714.9aefd7-2ubuntu1) precise; urgency=low
+
+  * Resynchronize with Debian. Since the Debian and Ubuntu packages diverged
+    for a long time, this changelog entry represents the status of the Ubuntu
+    delta as compared to the hamster package shipped in 11.10. Remaining
+    changes:
+    - 01-dont-fail-on-applet-import.patch: if import of gnomeapplet fails,
+    default to upper panel orientation. This is needed for indicator-hamster
+    - 02-dont-traceback-on-quit.patch: don't traceback if saving to gconf
+      fails, but instead indicate to the caller that there was an error
+    - debian/control: Remove Vcs-Bzr link (Ubuntu developers should use
+      lp:ubuntu/hamster-applet instead)
+    - Drop the following, no longer needed:
+      + debian/patches/02_lp705482.patch (included upstream)
+      + debian/patches/03-dont-install-applet.patch (Debian packaging
+        addresses it)
+      + debian/patches/06-lp799809.patch (included upstream)
+      + debian/control: drop changes to Homepage and Description
+      + debian/rules: drop changes for quilt since we are now source format v3
+        and Debian packaging is adjusted for waf
+  * debian/rules: don't remove applet.py and applet.ui as they are needed by
+    indicator-hamster (continue to not install the other files)
+
+ -- Jamie Strandboge <jamie@ubuntu.com>  Mon, 07 Nov 2011 11:41:53 -0600
+
+hamster-applet (2.91.3+git20110714.9aefd7-2) unstable; urgency=low
+
+  * Upload to unstable.
+  * Bump debhelper compatibility to 8.
+  * debian/control.in:
+    - Set pkg-gnome-maintainers@lists.alioth.debian.org as Maintainer.
+    - Add Build-Depends on gnome-control-center-dev for gnome-keybindings.pc.
+
+ -- Michael Biebl <biebl@debian.org>  Fri, 14 Oct 2011 16:51:11 +0200
+
+hamster-applet (2.91.3+git20110714.9aefd7-1) experimental; urgency=low
+
+  * New upstream git snapshot.
+  * Remove obsolete preinst.
+  * Only suggest python-evolution since it is going away.
+  * Explicitly remove the GNOME panel applet files, it is now a 
+    standalone only. Drop dependency on python-gnomeapplet accordingly.
+    Closes: #638130.
+  * Drop some useless build-dependencies.
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 19 Aug 2011 21:02:49 +0200
+
+hamster-applet (2.32.1-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Krzysztof Klimonda ]
+  * New upstream release. 
+  * debian/copyright:
+    - update copyright info.
+  * debian/patches:
+    - remove all patches applied upstream
+  * debian/rules:
+    - update rules to support new build system using waf 
+  * debian/control:
+    - make hamster-applet Architecture: all as it doesn't ship any
+      architecture dependent files anymore.
+
+  [ Raphaël Hertzog ]
+  * Fix watch file.
+  * Drop python-notify from Depends, Recommends is enough.
+  * Change build-dep on python-dev into a build-dep on python. It's
+    enough for an arch all package.
+  * Use dh_python2 instead of python-support.
+  * Upgrade Standards-Version to 3.9.2.
+  * Drop ${shlibs:Depends} not needed for an arch all package.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 13 Jun 2011 10:49:43 +0200
+
+hamster-applet (2.30.2-3) unstable; urgency=low
+
+  * Recommend gnome-icon-theme. Closes: #604896.
+  * 11_monitor.patch: patch from Scott Barker, backported from 2.32. Fix 
+    file monitoring. Closes: #605036.
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 01 Dec 2010 18:39:37 +0100
+
+hamster-applet (2.30.2-2) unstable; urgency=low
+
+  * 10_colordepth.patch: patch from Étienne Loks to avoid crashes when 
+    the colordepth is not 24 bits. Closes: #579723.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 06 Nov 2010 13:03:24 +0100
+
+hamster-applet (2.30.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Move to 3.0 source format and to quilt.
+  * 02_absolute-imports.patch: patch from Stefano Rivera. Fix incorrect 
+    use of relative imports. Closes: #586464.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 26 Jun 2010 08:46:21 +0200
+
+hamster-applet (2.30.1-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Sebastian Dröge <slomo@debian.org>  Tue, 04 May 2010 09:55:20 +0200
+
+hamster-applet (2.30.0.1-2) unstable; urgency=low
+
+  * debian/control.in:
+    + Add dependency on python-xdg (Closes: #578266).
+
+ -- Sebastian Dröge <slomo@debian.org>  Mon, 19 Apr 2010 10:42:32 +0200
+
+hamster-applet (2.30.0.1-1) unstable; urgency=low
+
+  * New upstream stable release:
+    + debian/patches/01_startup-fix.patch:
+      - Updated to apply cleanly again.
+    + debian/control.in:
+      - Update build dependencies and dependencies.
+  * debian/control.in:
+    + Build depend on gnome-control-center-dev to get support
+      for custom keybindings.
+
+ -- Sebastian Dröge <slomo@debian.org>  Fri, 16 Apr 2010 10:37:59 +0200
+
+hamster-applet (2.28.2-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+    - Fixes charts not appearing in some configurations. Closes: #550886.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 18 Dec 2009 14:24:53 +0100
+
+hamster-applet (2.28.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Thu, 22 Oct 2009 22:01:54 +0200
+
+hamster-applet (2.28.0-1) unstable; urgency=low
+
+  * New upstream release.
+    - Fixes to idle detection (Closes: #538790).
+  * debian/control.in:
+    - added a depends on python-gnome2 needed at runtime.
+    - removed python-glade2 depends, it's no more needed.
+  * debian/copyright:
+    - added missing copyright holders.
+  * debian/patches/01_startup-fix.patch:
+    - this patch removes the __file__ test at startup preventing
+      hamster to fail when loading needed modules.
+  * debian/rules:
+    - added simple-patchsys.mk include.
+
+ -- Andrea Veri <andrea.veri89@gmail.com>  Mon, 28 Sep 2009 17:06:17 +0200
+
+hamster-applet (2.26.3-1) unstable; urgency=low
+
+  [ Josselin Mouette ]
+  * Add missing dependencies on python-dbus and python-gconf.
+  * Replace the python-gnome2-desktop dependency by python-evolution and 
+    python-gnomeapplet. Closes: #542324.
+
+  [ Emilio Pozuelo Monfort ]
+  * New upstream bugfix release.
+  * Add missing dependency on python-cairo.
+  * Standards-Version is 3.8.3, no chanes needed.
+  * Point Vcs-* to the unstable branch.
+  * Add "Copyright" to the packaging copyright statement.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Sat, 29 Aug 2009 00:00:12 +0200
+
+hamster-applet (2.26.2-1) unstable; urgency=low
+
+  [ Pedro Fragoso ]
+  * New upstream version 
+  * Bump Standards to 3.8.1 (no changes)
+
+  [ Josselin Mouette ]
+  * Switch to python-support.
+  * Add a preinst snippet to cleanup for broken pycentral versions.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 27 Jun 2009 16:11:57 +0200
+
+hamster-applet (2.24.3-1) unstable; urgency=low
+
+  * New upstream bugfix and translation release.
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 05 Mar 2009 18:19:45 +0100
+
+hamster-applet (2.24.2-1) experimental; urgency=low
+
+  [ Emilio Pozuelo Monfort ]
+  * New upstream release.
+  * Adapt the package to pkg-gnome.
+  * Require Python >= 2.5 for the sqlite bindings.
+
+  [ Pedro Fragoso ]
+  * Initial upload to Debian (Closes: #477972)
+    - Thanks Tim Retout for the initial ITP and permission
+
+  [ Loic Minier ]
+  * Cleanup whitespaces.
+  * Use /experimental instead of /unstable in Vcs-* fields.
+  * Drop libxss-dev build-dep.
+
+ -- Pedro Fragoso <ember@ubuntu.com>  Thu, 04 Dec 2008 17:47:03 +0000
+
+hamster-applet (2.24.1-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release (lp: #286459)
+    - Properly handle first day of week for all locale values.
+          Fixes #554256. (lp: #275709)
+
+ -- Pedro Fragoso <ember@ubuntu.com>  Mon, 20 Oct 2008 11:46:39 +0100
+
+hamster-applet (2.24.0-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release (LP: #273327)
+    - some more strings available for translation, but the main changes
+      are the updated translations
+
+ -- Pedro Fragoso <ember@ubuntu.com>  Mon, 22 Sep 2008 21:57:33 +0100
+
+hamster-applet (2.23.92-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release (LP: #262744)
+    - fixed code so that it works also with Python 2.4
+    - Fixed bug with tasks falling into unsorted category (bug #548914)
+    - Fixed error when switching tasks with doubleclick
+    - Bump up pygtk and libgtk to 2.12, pyobject to 2.14
+      intltool to 0.37.1
+    - Downgrade XS-python and python b-d and depends to 2.4
+  * debian/control:
+    - Change Homepage field to GNOME url
+
+ -- Pedro Fragoso <ember@ubuntu.com>  Mon, 08 Sep 2008 17:37:05 +0100
+
+hamster-applet (2.23.90-0ubuntu1) intrepid; urgency=low
+
+  * Initial release (LP: #255179)
+
+ -- Pedro Fragoso <ember@ubuntu.com>  Wed, 06 Aug 2008 01:04:12 +0100

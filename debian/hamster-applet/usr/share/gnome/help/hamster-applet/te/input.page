@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="te">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>కార్యకలాప ప్రవేశాన్ని వేగవంతం చేయుటకు జిమ్మిక్కులు</desc>
+</info>
+<title>ఇన్‌పుట్</title>
+
+<p>
+    To start tracking, type in the activity name in the input box and hit the
+    <key>Enter</key> key.
+    There are a few tricks that will allow you to specify more detail on
+    the fly:
+</p>
+
+<steps>
+    <item><p>కొత్త విభాగాన్ని జతచేయుటకు @ చిహ్నాన్ని వాడండి</p></item>
+    <item><p>ప్రతీ కామా తరువాత (,) వివరణ క్షేత్రంలో భద్రపరుచబడుతుంది</p></item>
+    <item><p>To specify time on the fly, enter it first in the input box</p></item>
+</steps>
+
+<p>కొన్ని ఉదాహరణలు:</p>
+<example>
+    <code>12:30-12:45 పువ్వులపై నీళ్ళు చల్లాలి</code>
+    <p>Forgot to note the important act of watering flowers over lunch.</p>
+</example>
+<example>
+    <code>tomatoes@garden, digging holes</code>
+    <p>
+        Need more tomatoes in the garden. Digging holes is purely informational,
+        so added it as a description.
+    </p>
+</example>
+<example>
+    <code>-7 existentialism, thinking about the vastness of the universe</code>
+    <p>
+        Corrected information by informing application that I've been
+        doing something else for the last seven minutes. Relative times only
+        work for ongoing activities without an end time.
+    </p>
+</example>
+
+<p>
+    On top of that you can add tags in the tag input field.
+    Tags are delimited by a comma. Press the <key>Tab</key> when the suggestion
+    box appears to complete the input to the first matching tag.
+</p>
+
+</page>

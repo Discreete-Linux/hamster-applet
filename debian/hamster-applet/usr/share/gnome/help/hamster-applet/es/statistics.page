@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="statistics" xml:lang="es">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Nota sobre la interpretación de estadísticas.</desc>
+</info>
+<title>Estadísticas</title>
+
+<p>Los resultados accesibles a través del enlace <gui style="button">Mostrar estadísticas</gui> son experimentales y son interpretaciones de los hechos. Esta interpretación se debe comparar con sus propias observaciones. Se agradecen parches.</p>
+<p>No obstante, «Comienza y acaba»le debería dar alguna idea acerca de los tiempos de sus actividades.</p>
+</page>

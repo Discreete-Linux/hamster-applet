@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="gl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Trucos para acelerar a entrada de actividades</desc>
+</info>
+<title>Entrada</title>
+
+<p>Para iniciar un seguimento, escriba o nome da actividade na caixa de entrada e prema <key>Intro</key>. Porén, existen uns poucos trucos que lle permitirán especificar máis detalles ao voo:</p>
+
+<steps>
+    <item><p>Use o símbolo @ para engadir unha categoría</p></item>
+    <item><p>Todo despois dunha coma (,) almacenaranse no campo de descrición</p></item>
+    <item><p>Para especificar unha hora ao voo, insírea primeiro na caixa de entrada</p></item>
+</steps>
+
+<p>Uns poucos exemplos:</p>
+<example>
+    <code>12:30-12:45 regar plantas</code>
+    <p>Esqueceuse do importante acto de regar as plantas despois da comida.</p>
+</example>
+<example>
+    <code>tomates@xardin, cavar buratos</code>
+    <p>Necesitas máis tomates no xardín. Cavar buratos é puramente informativo, polo que engádeo como unha descrición.</p>
+</example>
+<example>
+    <code>-7 existencialimo, pensando sobre a grandeza do universo</code>
+    <p>Información corrixida informando ao aplicativo que se estivo ocupando noutro asunto durante os últimos sete minutos. Os tempos relativos só funcionan cos tempos de finalización, isto é, para a actividade máis recente.</p>
+</example>
+
+<p>Sobre ilo pode engadir etiquetas no campo de entrada de etiquetas. As etiquetas están delimitadas por comas. Premer <key>Tabulación</key> cando apareza a caixa de suxestións completará a entrada coa primeira etiqueta coincidente.</p>
+
+</page>

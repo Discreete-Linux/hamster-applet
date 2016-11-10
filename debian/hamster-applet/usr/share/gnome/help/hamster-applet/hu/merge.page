@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="hu">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Automatikus ütközésfeloldás.</desc>
+</info>
+<title>Tevékenységek elválasztása</title>
+
+<p>Az <app>Időnyilvántartó</app> mindent megtesz a tevékenységek közti átfedések elkerüléséhez. Ha egy meglévő tevékenység közepén hoz létre új tevékenységet, akkor az előbbi ketté lesz vágva. Más esetekben a korábbi bejegyzések le lesznek rövidítve.</p>
+<note style="info">
+    <p>Az egyesítés az egész napra vonatkozó információk bevitelekor jön jól. Kezdje el bevinni az első tevékenységet, és válassza ki a „folyamatban” jelölőnégyzetet befejezési időként. A következő tevékenységhez ismét csak a kezdési időt adja meg, és jelölje folyamatban lévőként. Figyelje meg, hogy az előző tevékenység befejezési ideje hogyan változik az új kezdési idejére.</p>
+</note>
+</page>

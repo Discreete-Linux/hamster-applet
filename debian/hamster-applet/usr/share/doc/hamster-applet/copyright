@@ -1,0 +1,41 @@
+This package was debianized by Pedro Fragoso <ember@ubuntu.com> on
+Wed, 06 Aug 2008 01:04:12 +0100.
+
+It was downloaded from ftp://ftp.gnome.org/pub/GNOME/sources/hamster-applet/
+
+Upstream Authors:
+
+    Patryk Zawadzki <patrys at pld-linux.org>
+    Toms Bauģis <toms.baugis at gmail.com>
+
+Copyright Holders:
+
+     Copyright (C) 2007-2009 Patryk Zawadzki <patrys at pld-linux.org>
+     Copyright (C) 2008-2010 Toms Bauģis <toms.baugis at gmail.com>
+     Copyright (C) 2008 Pēteris Caune <cuu508 at gmail.com>
+     Copyright (C) 2008, J. Fèlix Ontañón <fontanon at emergya dot es>
+     Copyright (C) 2008 Pēteris Caune <cuu508 at gmail.com>
+     Copyright (C) 2008 Nathan Samson <nathansamson at gmail dot com> 
+     Copyright (C) 2008 Giorgos Logiotatidis <seadog at sealabs dot net>
+     Copyright (C) 1996, 2008 Free Software Foundation, Inc
+     Copyright (C) 2009-2010 Rico Tzschichholz <ricotz@t-online.de>
+     Copyright (C) 2009-2010 Jason Smith <jassmith@gmail.com>
+
+License:
+
+    Project Hamster is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Project Hamster is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Project Hamster.  If not, see <http://www.gnu.org/licenses/>.
+    Or see `/usr/share/common-licenses/GPL-3`.
+
+The Debian packaging is Copyright (C) 2008, Pedro Fragoso <ember@ubuntu.com>
+and is licensed under the GPL, see `/usr/share/common-licenses/GPL-3'.

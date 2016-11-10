@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="tracking" xml:lang="de">
+<info>
+    <link type="seealso" xref="input"/>
+    <link type="guide" xref="index"/>
+    <desc>Tipps zum effektiven Erfassen Ihrer Tätigkeiten.</desc>
+</info>
+
+<title>Zeiterfassung</title>
+
+<p>Ihre Gewohnheiten zur Zeiterfassung werden davon bestimmt, aus welchen Gründen Sie diese Daten überhaupt sammeln wollen. Was wollen Sie damit machen? Ist es einfach nur Spielerei, oder tatsächlich für Ihre tägliche Arbeit? Wie detailliert sollen die Ergebnisse sein?</p>
+
+<section id="granularity">
+<title>Detailgrad</title>
+<p>Empfehlenswert sind ungefähr zwischen 5 und 30 Tätigkeiten pro Tag.</p>
+<p>Die <app>Zeiterfassung</app> will auch das allzu detaillierte Erfassen vermeiden. Schließlich sollen Sie ja nicht mehr Zeit für die Erfassung Ihrer Tätigkeiten aufwenden als für die Tätigkeiten selbst! Anders herum betrachtet, können mangelnde Details dazu führen, dass die erfassten Daten vielleicht schon einen Monat später nicht mehr sinnvoll verwertbar sind.</p>
+</section>
+
+<section id="fields">
+<title>Was soll ich in jedes der Felder eintragen?</title>
+
+<p>Für einfache Tätigkeiten ohne übergeordnetes Projekt verwenden Sie die Aktion an sich als <gui>Tätigkeit</gui> und die <gui>Kategorie</gui> für eine Verallgemeinerung. Beispiel: <input>Mittagessen@Arbeit</input>.</p>
+<p>Für die etwas anspruchsvollere Erfassung sollten Sie Ihre Tätigkeit in ein oder zwei Worte fassen (»Baumhaus«, »Projekt X« o.ä.). Geben Sie dies im Feld <gui>Tätigkeit</gui> ein. Im <gui>Kategorie</gui>-Feld geben Sie einen verallgemeinernden Begriff ein, der beschreibt, ob es sich beispielsweise um eine private oder berufliche Angelegenheit oder auch etwas ganz Anderes handelt. Letztendlich beschreiben Sie im Feld <gui>Schlagworte</gui> Ihre aktuelle Aktion, ob Lesen oder Basteln, Schreiben oder Malen ...</p>
+<p>Dieser Ansatz vermittelt Ihnen einen Überblick, wie viel Zeit Sie in Ihren gesamten Projekten mit Lesen verbracht haben (anhand des Schlagwortes), wie viel Zeit Sie Ihren Hobbys gewidmet haben (anhand der Kategorie) oder wie viel Zeit die Arbeit am Projekt X in Anspruch nahm (anhand von Tätigkeit und Schlagwort).</p>
+</section>
+
+<section>
+<title>Tipps zum Verbessern der erfassten Daten</title>
+
+<list>
+    <item><p>Benennen Sie Tätigkeiten so, dass Sie einfach voneinander zu unterscheiden sind. Der Name der Tätigkeit ist die einzige Information, die im Panel erscheint. Sind Sie in der Lage, allein anhand des Namens der Tätigkeit zu bestimmen, woran Sie gerade arbeiten?</p></item>
+
+    <item><p>Halten Sie Ihre Kategorienliste klein (etwa 3 bis 7 Kategorien) und suchen Sie sich Begriffe aus, die sich höchstwahrscheinlich auch über längere Zeit nicht ändern werden. Beispiele: »Arbeit«, »Privat«, »Sonstiges«.</p></item>
+
+    <item><p>Tragen Sie im Beschreibungsfeld kurz gefasste Informationen wie Referenzierungsnummern ein. Die Suche im <gui>Übersicht</gui>-Fenster berücksichtigt auch das Beschreibungsfeld, so dass das Finden von Tätigkeiten anhand der Referenzierungsnummer ebenso einfach wird wie die Eingabe in das Suchfeld und das Drücken der <key>Eingabetaste</key>.</p></item>
+
+    <item><p>Tätigkeiten und Schlagworte kommen und gehen… Sobald Sie der Meinung sind, dass Sie eine Tätigkeit erledigt haben, sollten Sie sie entfernen, so dass sie nicht mehr in der Liste zur automatischen Vervollständigung auftaucht. Keine Angst, die Daten an sich, also die Protokolle der Tätigkeit, werden dadurch nicht gelöscht. Dies ist nur die »Verlaufsliste«.</p></item>
+</list>
+</section>
+
+
+</page>

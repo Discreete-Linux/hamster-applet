@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="sl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Samodejno razreševanja sporov.</desc>
+</info>
+<title>Razdeljevanje dejavnosti</title>
+
+<p><app>Sledilnik časa</app> se poskuša izogniti prekrivanju dejavnosti. V primeru, da ustvarite dejavnost v obstoječi dejavnosti, bo bila prva razdeljena na dva dela. V drugih primerih prekrivanja bodo predhodni vnosti skrčeni.</p>
+<note style="info">
+    <p>Združevanje lahko postane priročno pri vnašanju dejavnosti za cel dan. Začnite z vnašanjem prve dejavnosti in za končni čas izberite izbirno polje " v teku". Za naslednjo dejavnost nastavite samo začetni čas in jo označite kot v teku. Opazujte kako se končni čas predhodnega vnosa prilagodi na začetni čas nove dejavnosti. Ponavljajte postopek dokler ne boste zadovoljni!</p>
+</note>
+</page>

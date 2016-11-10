@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="de">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Tricks zum Beschleunigen der Eingabe von Tätigkeiten.</desc>
+</info>
+<title>Eingabe</title>
+
+<p>Um mit der Zeiterfassung zu beginnen, geben Sie den Namen der Tätigkeit in das Eingabefeld ein und drücken Sie die <key>Eingabetaste</key>. Es gibt einige Tricks, mit deren Hilfe Sie unmittelbar einige Details hinzufügen können:</p>
+
+<steps>
+    <item><p>Verwenden Sie das Symbol @, um eine Kategorie hinzuzufügen</p></item>
+    <item><p>Alles nach dem Komma (,) wird zum Beschreibungsfeld hinzugefügt</p></item>
+    <item><p>Um die Zeit unmittelbar anzugeben, tippen Sie sie zuerst in das Eingabefeld ein.</p></item>
+</steps>
+
+<p>Einige Beispiele:</p>
+<example>
+    <code>12:30-12:45 Blumen gießen</code>
+    <p>Vergessen Sie nicht, den bedeutsamen Vorgang des Blumengießens während des Mittagessens zu erwähnen.</p>
+</example>
+<example>
+    <code>Tomaten@Garten, Löcher graben</code>
+    <p>Es werden mehr Tomaten im Garten gebraucht. Das Graben von Löchern ist rein informativ, deshalb wird es als Beschreibung hinzugefügt</p>
+</example>
+<example>
+    <code>-7 Existentialismus, Nachdenken über die Grundfesten des Universums</code>
+    <p>Informationen werden korrigiert, indem die Anwendung darüber informiert wird, was Sie in den letzten 7 Minuten getan haben. Relative Zeiten haben keine Endzeit, sie werden für die letzten Tätigkeiten genutzt.</p>
+</example>
+
+<p>Darüber hinaus können Sie Eingabefeld <gui>Kategorien und Schlagworte</gui> Schlagworte hinzufügen. Drücken Sie die <key>Tabulatortaste</key>, wenn das Vorschlagfeld angezeigt wird. Dadurch wird das erste zutreffende Schlagwort vervollständigt.</p>
+
+</page>

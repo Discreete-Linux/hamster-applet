@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="gl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Resolución automática de conflitos</desc>
+</info>
+<title>Partir actividades</title>
+
+<p>O <app>Xestor de tempo</app> fai o mellor que pode para evitar solapamentos entre actividades. Se crea unha actividade no medio dunha actividade existente, a anterior partirase en dous. Noutros casos de solapamento encolleranse as entradas anteriores.</p>
+<note style="info">
+    <p>Mesturar o aspecto pode ser útil ao introducir información para todo o día. Comence introducindo a primeira actividade do día e estabeleza o tempo en «en progreso». Para a seguinte actividade, de novo, estabeleza a hora de inicio e márquea como en progreso. Observe como a hora de finalización da actividade anterior axústase á hora de inicio da nova actividade.</p>
+</note>
+</page>

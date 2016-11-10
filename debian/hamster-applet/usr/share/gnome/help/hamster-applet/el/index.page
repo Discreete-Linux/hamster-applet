@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index" xml:lang="el">
+
+  <info>
+    <title type="text">Καταγραφή χρόνου</title>
+    <title type="link">Καταγραφή χρόνου</title>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Καταγραφή χρόνου</title>
+</page>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="tracking" xml:lang="da">
+<info>
+    <link type="seealso" xref="input"/>
+    <link type="guide" xref="index"/>
+    <desc>Fif til hvordan du effektivt kan styre dine aktiviteter.</desc>
+</info>
+
+<title>Sådan styrer du tiden</title>
+
+<p>Dine vaner i forbindelse med tidsstyring vil være dikteret af årsagen til, at du ønsker at indsamle dataene. Hvad ønsker du at bruge dataene til? Er det bare nysgerrighed eller et arbejdskrav? Og hvilket detaljeringsniveau er du interesseret i?</p>
+
+<section id="granularity">
+<title>Granulering</title>
+<p>Et forslag til antal aktiviteter per dag kunne ligge på 5-30.</p>
+<p>Formålet med <app>Tidsstyring</app> er at undgå mikrostyring, så man ikke bruger mere tid på at styre end rent faktisk på at udføre aktiviteterne!For lav detaljeringsgrad kan dog også resultere i, at der ikke er nogen data, som er brugbare for dig en måned senere.</p>
+</section>
+
+<section id="fields">
+<title>Hvad skal jeg skrive i hver boks?</title>
+
+<p>For simple aktiviteter som ikke har et projekt, brug handlingen som navn på <gui>aktiviteten</gui> og <gui>kategorien</gui> for en bredere benævnelse. For eksempel: <input>frokost@arbejde</input>.</p>
+<p>For mere sofistikeret styring kan du forsøge at indfange din aktivitet i et eller to ord ("træhus", "projekt x" eller lignende) og bruge dette i feltet for <gui>aktiviteten</gui>. Brug <gui>kategorien</gui> til at beskrive aktiviteten bredt - er det privat eller arbejde eller noget andet? Endelig kan du bruge <gui>mærker</gui> til at beskrive din faktiske handling - er det læsning eller fysisk arbejde, skrivning eller maling.</p>
+<p>Denne fremgangsmåde vil tillade dig, at se hvor meget du har fået læst igennem alle projekter (efter mærket), hvor meget tid du har brugt på dine hobbyer efter kategorien), og hvor meget tid du har arbejdet på projekt x med analyser (efter aktiviteten og mærket).</p>
+</section>
+
+<section>
+<title>Fif til forbedring af dine styringsdata</title>
+
+<list>
+    <item><p>Navngiv aktiviteter så de nemt kan adskilles fra hinanden. Aktivitetsnavnet er også den eneste information, som fremgår af panelet. Vil du kunne bestemme, hvad du arbejder på bare ved at kigge på aktivitetsnavnet?</p></item>
+
+    <item><p>Hold din liste af kategorier lille (cirka 3-7) og vælg nogle som forventes ikke at blive ændret over tid. Hold dem også generiske. For eksempel "arbejde", "privat", "diverse".</p></item>
+
+    <item><p>Brug beskrivelsesfeltet for korttidsinformation såsom referencenummer. Søgningen i <gui>overbliksvinduet</gui> søger også i beskrivelsen, så det at finde aktiviteter hvor du har nævnt det specifikke referencenummer er så enkelt som at indtaste det i søgeboksen og trykke <key>Retur</key>.</p></item>
+
+    <item><p>Aktiviteter og mærker kan bruges efter behov. Når du mener, at du er færdig med en aktivitet, så fjern den så den ikke længere viser sig i autofærdig. Vær ikke bekymret: Dataene (aktiviteter i loggen) vil ikke blive slettet. Dette er bare "den igangværende liste".</p></item>
+</list>
+</section>
+
+
+</page>

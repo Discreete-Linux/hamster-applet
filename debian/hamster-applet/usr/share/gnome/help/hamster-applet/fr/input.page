@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="fr">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Astuces pour accélérer la saisie d'une activité.</desc>
+</info>
+<title>Saisie</title>
+
+<p>Pour commencer le suivi, saisissez le nom de l'activité dans la zone de saisie puis appuyez sur la touche <key>Entrée</key>. Voici quelques astuces qui vous permettent de fournir davantage de détails au passage :</p>
+
+<steps>
+    <item><p>Utilisez le symbole @ pour ajouter une catégorie</p></item>
+    <item><p>Tout ce qui vient après une virgule « , » est placé dans le champ description</p></item>
+    <item><p>Pour indiquer l'heure tout en écrivant, saisissez-la en premier dans la zone de saisie</p></item>
+</steps>
+
+<p>Quelques exemples :</p>
+<example>
+    <code>12:30-12:45 arrosage des fleurs</code>
+    <p>On a oublié de noter l'indispensable arrosage des fleurs avant le déjeuner.</p>
+</example>
+<example>
+    <code>tomates@jardin, creusé des trous</code>
+    <p>On a besoin de plus de tomates dans le jardin. Que l'on creuse des trous est juste une information, donc on l'ajoute comme description.</p>
+</example>
+<example>
+    <code>-7 existentialisme, réflexion sur l'infinie grandeur de l'univers</code>
+    <p>Correction d'information en indiquant à l'application que j'ai fait quelque chose d'autre pendant les 7 dernières minutes. La saisie de temps relatif ne fonctionne que pour les activités en cours, sans heure de fin.</p>
+</example>
+
+<p>De plus, vous pouvez ajoutez des étiquettes dans le champ de saisie des étiquettes. Les étiquettes sont séparées par des virgules. Le gestionnaire de temps vous propose une liste d'étiquettes correspondant à votre saisie, appuyez sur la touche <key>Tab</key> pour finir la saisie de l'étiquette selon la première étiquette correspondante affichée.</p>
+
+</page>

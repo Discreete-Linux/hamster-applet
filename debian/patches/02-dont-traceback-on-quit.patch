@@ -1,0 +1,41 @@
+Author: Jamie Strandboge <jamie@canonical.com>
+Description: don't traceback if saving to gconf fails, but instead indicate
+ to the caller that there was an error
+Forwarded: no
+Bug-Ubuntu: https://bugs.launchpad.net/bugs/816460
+
+Index: hamster-applet-2.91.3+git20120514.b9fec3e1/src/hamster/configuration.py
+===================================================================
+--- hamster-applet-2.91.3+git20120514.b9fec3e1.orig/src/hamster/configuration.py	2013-03-22 16:01:17.000000000 -0500
++++ hamster-applet-2.91.3+git20120514.b9fec3e1/src/hamster/configuration.py	2013-03-22 16:01:17.000000000 -0500
+@@ -287,16 +287,20 @@
+         #for gconf refer to the full key path
+         key = self._fix_key(key)
+ 
+-        if vtype is bool:
+-            self._client.set_bool(key, value)
+-        elif vtype is str:
+-            self._client.set_string(key, value)
+-        elif vtype is int:
+-            self._client.set_int(key, value)
+-        elif vtype in (list, tuple):
+-            #Save every value as a string
+-            strvalues = [str(i) for i in value]
+-            self._client.set_list(key, gconf.VALUE_STRING, strvalues)
++        try:
++            if vtype is bool:
++                self._client.set_bool(key, value)
++            elif vtype is str:
++                self._client.set_string(key, value)
++            elif vtype is int:
++                self._client.set_int(key, value)
++            elif vtype in (list, tuple):
++                #Save every value as a string
++                strvalues = [str(i) for i in value]
++                self._client.set_list(key, gconf.VALUE_STRING, strvalues)
++        except:
++            log.warn("Could not save '%s' to gconf database" % str(key))
++            return False
+ 
+         return True
+ 

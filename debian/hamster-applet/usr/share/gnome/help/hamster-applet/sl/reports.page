@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="sl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Dobite podatke iz sledilnika časa.</desc>
+</info>
+<title>Poročanje in izvoz</title>
+
+<p>Poleg zapisa HTML, ki je v pogovornem oknu shranjevanja poročila privzeto ponujen, vam spustno polje zapisa ponuja zapise TSV (s tabulatorji ločene vrednosti, dobro za preglednice), XML in iCal.</p>
+<p>Za programski dostop je na voljo API D-Bus, ki ga je mogoče opazovati z orodji kot je <link href="https://fedorahosted.org/d-feet/">D-Feet</link>.</p>
+
+<note style="info">
+    <p>Najhitrejši način za pridobivanje podatkov "ven" iz Sledilnika časa je ustvarjanje poročila HTML. Med pritiskom tipke <key>Ctrl</key> izberite vse zahtevane celice in jih skopirajte in prilepite v ciljni program. </p>
+</note>
+</page>

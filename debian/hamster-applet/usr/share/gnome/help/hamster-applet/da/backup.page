@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="da">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Sådan laver du sikkerhedskopi af aktivitetsdatabasen.</desc>
+</info>
+<title>Sikkerhedskopi</title>
+
+<p>Aktiviteter gemmes i en SQLite-database, placeret i <file>~/.local/share/hamster-applet/hamster.db</file>. Filen kan løbende sikkerhedskopieres og gendannes. Programmet vil genindlæse data automatisk efter en kort tidsperiode.</p>
+<note style="info">
+    <p>For at se indholdet af databasen kan vi anbefale <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>SQLite Manager</app></link> til Mozilla Firefox.</p>
+</note>
+</page>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="ro">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Trucuri pentru a accelera introducerea activităților.</desc>
+</info>
+<title>Intrare</title>
+
+<p>Pentru a începe pontajul, tastați numele activității în caseta de intrare și apăsați tasta <key>Enter</key>. Există câteva trucuri care vă permit să specificați mai multe detalii în timpul rulării:</p>
+
+<steps>
+    <item><p>Utilizați simbolul @ pentru a adăuga o categorie</p></item>
+    <item><p>Totul după o virgulă (,) va fi stocat în câmpul de descriere</p></item>
+    <item><p>Pentru a specifica timpul în timpul rulării, introduceți-l mai întâi în căsuța de intrare</p></item>
+</steps>
+
+<p>Câteva exemple:</p>
+<example>
+    <code>12:30-12:45 udat flori</code>
+    <p>Am uitat să notez actul important de udare al florilor după masa de prânz.</p>
+</example>
+<example>
+    <code>roșii@grădină, săpat gropi</code>
+    <p>Am nevoie de roșii mai multe în grădină. Săparea de gropi este pur informațional, așa că adăugați-o ca descriere.</p>
+</example>
+<example>
+    <code>-7 existențialism, cu gândul la imensitatea universului</code>
+    <p>Am corectat informațiile prin informarea aplicației că am făcut altceva în ultimele șapte minute. Timpul relativ funcționează doar pentru activitățile fără timp de terminare.</p>
+</example>
+
+<p>Pe partea de sus puteți să adăugați etichete în câmpul de introducere de etichete. Etichetele sunt delimitate printr-o virgulă. Apăsați <key>Tab</key> când apare caseta de sugestii pentru a finaliza introducerea primei etichete care se potrivește.</p>
+
+</page>

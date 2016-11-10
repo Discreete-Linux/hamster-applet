@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="hu">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Adatok kinyerése az Időnyilvántartóból.</desc>
+</info>
+<title>Jelentés és exportálás</title>
+
+<p>A Jelentés mentése ablakban alapértelmezésben felajánlott HTML formátumon kívül a formátum legördülő lista lehetővé teszi a TSV (Tab-határolt értékek, táblázatkezelőhöz), XML és iCal formátumok kiválasztását is.</p>
+<p>Programokból való eléréshez használható a D-Bus API, amely a <link href="https://fedorahosted.org/d-feet/">D-Feethez</link> hasonló eszközökkel figyelhető.</p>
+
+<note style="info">
+    <p>Az Időnyilvántartóból a leggyorsabban HTML jelentés készítésével nyerheti ki az adatokat. A <key>Ctrl</key> billentyű lenyomása közben jelölje ki a szükséges cellákat, majd másolja és illessze be azokat a célalkalmazásba.</p>
+</note>
+</page>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="hu">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Trükkök a tevékenységek bevitelének felgyorsítására.</desc>
+</info>
+<title>Adatbevitel</title>
+
+<p>A követés megkezdéséhez írja be a tevékenység nevét a beviteli mezőbe, és nyomja meg az <key>Enter</key> billentyűt. Néhány egyszerű trükk segítségével több részletet adhat meg menet közben:</p>
+
+<steps>
+    <item><p>Kategória hozzáadásához használja a @ szimbólumot</p></item>
+    <item><p>A vesszőt (,) követően minden a leírás mezőbe kerül</p></item>
+    <item><p>Az idő megadásához elsőként adja meg azt a beviteli mezőben</p></item>
+</steps>
+
+<p>Néhány példa:</p>
+<example>
+    <code>12:30-12:45 virágok meglocsolása</code>
+    <p>Elfelejtettem felírni a virágok halaszthatatlan meglocsolását ebéd után.</p>
+</example>
+<example>
+    <code>paradicsomok@kert, lyukak ásása</code>
+    <p>Több paradicsom kell a kertbe. A lyukak ásása csak információs célt szolgál, így leírásként van megadva.</p>
+</example>
+<example>
+    <code>-7 lételmélet, gondolkodás az univerzum végtelenségéről</code>
+    <p>Az információk javítása az alkalmazás értesítésével arról, hogy valami mást csinált az utolsó hét percben. A relatív idők csak folyamatban lévő, befejezési idő nélküli tevékenységekkel működnek.</p>
+</example>
+
+<p>Ezen kívül megadhat címkéket is a címke bemeneti mezőben. A címkéket vessző választja el. Nyomja meg a <key>Tab</key> billentyűt a javaslatdoboz megjelenésekor az adatbevitel kiegészítéséhez az első illeszkedő címkére.</p>
+
+</page>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="ro">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Obține date din Pontaj activități.</desc>
+</info>
+<title>Raportare și exportare</title>
+
+<p>În afară de formatul HTML care este în mod implicit oferit în fereastra Salvează raport, lista de selecție vă permite sa alegeți TSV (Valori separate prin tab, bun pentru foi de calcul tabelar), XML și formate iCal.</p>
+<p>Pentru accesul programatic, există API-ul D-Bus, care poate fi analizat utilizând instrumente cum ar fi <link href="https://fedorahosted.org/d-feet/">D-Feet</link>.</p>
+
+<note style="info">
+    <p>Cea mai rapidă modalitate de a obține date în afara Pontajului de activități este prin generarea unui raport HTML. În timp ce țineți apăsat tasta <key>Ctrl</key>, selectați toate celulele necesare, și apoi copiați-le și lipiți-le în aplicația destinație.</p>
+</note>
+</page>

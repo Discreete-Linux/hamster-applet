@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="fa">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>ترفندهایی برای سرعت بخشیدن به ورودی‌های فعالیت.</desc>
+</info>
+<title>ورود</title>
+
+<p>برای آغاز پیگیری، نام فعالیت را داخل جعبه وارد کرده و کلید <key>Enter</key> را بفشارید. فنونی وجود دارند که به شما اجازه می‌دهند تا جزییات بیشتری را روی هوا مشخص کنید:</p>
+
+<steps>
+    <item><p>از نماد @ برای اضافه کردن یک گروه استفاده کنید</p></item>
+    <item><p>همه چیز بعد از یک کاما «،» در یک فیلد توضیح ذخیره خواهد شد</p></item>
+    <item><p>برای تعیین زمان روی هوا، ابتدا آن را در جعبه ورودی وارد کن</p></item>
+</steps>
+
+<p>چند مثال:</p>
+<example>
+    <code>۱۲:۳۰-۱۲:۴۵ آبیاری گل‌ها</code>
+    <p>یادداشت کردن وظیفه‌ی مهم آبیاری گل‌ها نسبت به ناهار را فراموش کرد.</p>
+</example>
+<example>
+    <code>گوجه‌فرنگی‌ها@باغ, کندن چاله</code>
+    <p>گوجه فرنگی‌های بیشتری در باغچه مورد نیاز است.</p>
+</example>
+<example>
+    <code>-۷ اگزیستانسیالیسم، تفکر در مورد پهناوری جهان هستی</code>
+    <p>تصحیح اطلاعات به وسیله‌ی آگاه‌کردن برنامه‌ها از اینکه در هفت دقیقه‌ی گذشته مشغول انجام کاری بوده‌ام. زمان‌های وابسته فقط برای فعالیت‌های در جریان بدون زمان انتهایی کار می‌کنند.</p>
+</example>
+
+<p>
+    On top of that you can add tags in the tag input field.
+    Tags are delimited by a comma. Press the <key>Tab</key> when the suggestion
+    box appears to complete the input to the first matching tag.
+</p>
+
+</page>

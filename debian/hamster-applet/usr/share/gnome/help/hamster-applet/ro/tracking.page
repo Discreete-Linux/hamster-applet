@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="tracking" xml:lang="ro">
+<info>
+    <link type="seealso" xref="input"/>
+    <link type="guide" xref="index"/>
+    <desc>Sfaturi despre cum să pontați activitățile dumneavoastră într-un mod eficient.</desc>
+</info>
+
+<title>Cum să țineți evidența timpului</title>
+
+<p>Obiceiurile dumneavoastră de pontaj vor fi dictate de motivul pentru care adunați informațiile. Ce doriți să faceți cu informațiile? Este o simplă curiozitate sau o cerință de serviciu? Și la ce nivel de detaliu sunteți interesat de rezultate?</p>
+
+<section id="granularity">
+<title>Granularitate</title>
+<p>Un ritm sugerat este de avea 5-30 activități pe zi.</p>
+<p>Scopul programului <app>Pontaj activități</app> este de a evita micro-pontajul astfel încât nu se va întâmpla să consumați mai mult timp pentru pontaj în loc să vă faceți treaba! Cu toate acestea, o granularitate prea mare ar putea face ca datele să nu vă mai fie utile o lună mai târziu.</p>
+</section>
+
+<section id="fields">
+<title>Ce ar trebui să scriu în fiecare căsuță?</title>
+
+<p>Pentru activități simple care nu au un proiect, utilizați acțiunea ca numele <gui>activității</gui> și <gui>categoria</gui> pentru contextul mai larg. De exemplu: <input>prânz@muncă</input>.</p>
+<p>Pentru un pontaj mai sofisticat încercați să dați un titlu activității dumneavoastră prin unul sau mai multe cuvinte („casă în copac”, „proiectul x”, sau asemănător) și folosiți titlul în câmpul <gui>activitate</gui>. Utilizați <gui>categorie</gui> pentru a descrie activitatea în contextul ei mai larg - este personal sau pentru muncă, sau altceva? În cele din urmă, folosiți <gui>etichete</gui> pentru a descrie acțiunea dumneavoastră curentă - citiți, construiți, scrieți sau pictați.</p>
+<p>Această metodă vă va permite să vedeți cât de mult ați citit prin toate proiectele dumneavoastră (prin etichetă), cât de mult timp v-ați petrecut pentru  hobbyurile dumneavoastră (prin categorie), cât de mult timp din toată munca în cadrul proiectului x ați petrecut-o analizând (prin activitate și etichetă)</p>
+</section>
+
+<section>
+<title>Sfaturi pentru îmbunătățirea informațiilor de pontaj</title>
+
+<list>
+    <item><p>Numiți activitățile astfel încât acestea să poată fi ușor diferențiate unele de altele. Numele activității este de asemenea singura informație ce apare în panou. Veți fi capabil să determinați la ce lucrați doar uitându-vă la numele activității?</p></item>
+
+    <item><p>Păstrați lista de categorii mici (să zicem, 3-7) și alegeți-le pe acelea care sunt puțin probabil să se schimbe în timp. De asemenea, păstrați-le generice. De exemplu: „muncă”, „personal”, „diverse”.</p></item>
+
+    <item><p>Utilizați câmpul descriere pentru informații pe termen scurt cum ar fi numere de referință. Căutarea în fereastra <gui>Privire de ansamblu</gui> caută de asemenea și în câmpul de descriere, astfel încât căutarea activităților unde menționați numărul de referință specific, vor fi atât de simple ca tastarea lui în caseta de căutare și apăsând tasta <key>Enter</key>.</p></item>
+
+    <item><p>Activitățile și etichetele pot veni și pleca cum este necesar. După ce credeți că ați terminat cu o activitate de-a binele, eliminați-o ca să nu apară în auto-completare deloc. Nu vă faceți griji: acțiunile (activitățile din istoric) nu vor fi șterse. Aceasta este doar „lista cu operații”.</p></item>
+</list>
+</section>
+
+
+</page>

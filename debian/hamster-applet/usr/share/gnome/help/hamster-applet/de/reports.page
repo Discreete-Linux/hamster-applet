@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="de">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Daten zur Zeiterfassung auslesen.</desc>
+</info>
+<title>Berichte erstellen und exportieren</title>
+
+<p>Neben dem als Vorgabe im Dialog <gui>Bericht speichern</gui> angebotenen HTML-Format ermöglicht die Format-Auswahlliste die Wahl zwischen TSV (durch Tabulatoren getrennte Werte, günstig für Tabellenkalkulationen), XML und iCal.</p>
+<p>Für Zugriffe auf Softwareebene gibt es eine D-Bus-Schnittstelle, die mit Werkzeugen wie <link href="https://fedorahosted.org/d-feet/">D-Feet</link> überwacht werden kann.</p>
+
+<note style="info">
+    <p>Der wirklich schnellste Weg, Daten aus der Zeiterfassung »heraus zu bekommen«, ist die Erstellung eines HTML-Berichts. Halten Sie die <key>Strg</key>-Taste gedrückt, während Sie alle benötigten Zellen auswählen und fügen Sie sie anschließend in die Zielanwendung ein.</p>
+</note>
+</page>

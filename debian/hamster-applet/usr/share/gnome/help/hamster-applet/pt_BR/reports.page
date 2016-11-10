@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="pt_BR">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Extrair dados do Gerenciador de tempo.</desc>
+</info>
+<title>Relatar e exportar</title>
+
+<p>Além do formato HTML, oferecido por padrão na janela de diálogo Salvar relatório, a lista suspensa de formatos permite que você escolha entre os formatos TSV (Valores separados por tabulações, bom para planilhas), XML e iCal.</p>
+<p>Para acesso programado, existe a API D-BUS, cujas informações podem ser extraídas usando ferramentas como <link href="https://fedorahosted.org/d-feet/">D-Feet</link>.</p>
+
+<note style="info">
+    <p>O modo mais rápido de se extrair dados do Gerenciador de Tempo é gerar um relatório HTML. Enquanto pressiona a tecla <key>Ctrl</key>, selecione todas as células necessárias, e então copie-as e cole-as no aplicativo de destino.</p>
+</note>
+</page>

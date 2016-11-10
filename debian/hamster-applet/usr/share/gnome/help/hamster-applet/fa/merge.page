@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="fa">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>حل تناقضات به صورت خودکار.</desc>
+</info>
+<title>منشعب کردن فعالیت‌ها</title>
+
+<p>
+    <app>Time Tracker</app> does its best to avoid overlaps in activities.
+    If you create an activity in the middle of an existing activity, the former
+    will be split into two. In other cases of overlapping, the previous entries
+    will be shrunk.
+</p>
+<note style="info">
+    <p>ادغام‌کردن می‌تواند هنگام وارد کردن اطلاعات برای کل روز مفید باشد. با وارد کردن اولین فعالیت و انتخاب «در جریان» برای زمان پایان شروع کنید. برای فعالیت بعدی دوباره، فقط زمان آغاز را تنظیم کنید و به عنوان در جریان نشانه‌گذاری کنید. دقت کنید که چگونه زمان پایان فعالیت قبلی تنظیم شده به‌عنوان زمان آغاز فعالیت بعدی تنظیم می‌شود. این کار را تا زمانی که راضی شوید انجام دهید!</p>
+</note>
+</page>

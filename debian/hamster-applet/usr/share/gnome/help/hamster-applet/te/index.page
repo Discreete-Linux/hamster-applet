@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index" xml:lang="te">
+
+  <info>
+    <title type="text">Time Tracking</title>
+    <title type="link">Time Tracking</title>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>క్రియేటివ్ కామన్స్ షేర్ ఎలైక్ 3.0</p>
+    </license>
+  </info>
+
+  <title>Time Tracking</title>
+</page>

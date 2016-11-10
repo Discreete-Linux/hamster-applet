@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="cs">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Jak zálohovat databázi činností</desc>
+</info>
+<title>Zálohování</title>
+
+<p>Činnosti jsou ukládány do databáze SQLite umístěné v <file>~/.local/share/hamster-applet/hamster.db</file>. Soubor je možné zálohovat a obnovit za chodu. Aplikace načte data automaticky za chvilku.</p>
+<note style="info">
+    <p>K prohlížení obsahu databáze můžeme doporučit použití doplňku <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>SQLite Manager</app></link> určeného pro Mozilla Firefox.</p>
+</note>
+</page>

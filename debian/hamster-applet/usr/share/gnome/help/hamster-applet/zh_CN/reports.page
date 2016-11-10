@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="zh_CN">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>从时间追踪器里获得数据。</desc>
+</info>
+<title>报告和导出</title>
+
+<p>在保存报告对话框中，默认提供的是 HTML 网页格式，在格式下拉列表中，您还可以选择 TSV 格式(标签分离数值，用于电子表格较好)，XML 和 iCal 格式。</p>
+<p>对于可编程访问，可以使用内置类似 <link href="https://fedorahosted.org/d-feet/">D-Feet</link> 的工具。</p>
+
+<note style="info">
+    <p>要快速从时间追踪器的 HTML 报告中“取出”数据，按住 <key>Ctrl</key> 键，选择所需的单元格，然后把它们复制粘贴到其他应用程序中。</p>
+</note>
+</page>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="el">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Πώς να πάρετε ένα αντίγραφο ασφαλείας της βάσης δεδομένων δραστηριοτήτων.</desc>
+</info>
+<title>Αντίγραφο ασφαλείας</title>
+
+<p>Οι δραστηριότητες αποθηκεύονται σε μια βάση δεδομένων SQLite, που βρίσκεται στο <file>~/.local/share/hamster-applet/hamster.db</file>. Μπορείτε να αντιγράψετε το αρχείο για λόγους ασφαλείας και να το επαναφέρετε ενώ δουλεύετε. Η εφαρμογή θα επαναφέρει τα δεδομένα αυτόματα μετά από ένα σύντομο χρονικό διάστημα.</p>
+<note style="info">
+    <p>Για να δείτε τα δεδομένα μέσα στη βάση δεδομένων σας εισηγούμαστε να χρησιμοποιήσετε το <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>Διαχειριστή SQLite</app></link> για το Mozilla Firefox.</p>
+</note>
+</page>

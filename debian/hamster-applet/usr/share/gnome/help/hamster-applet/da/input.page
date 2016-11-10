@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="da">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Fif der kan øge hastighed for aktivitetsindtastning</desc>
+</info>
+<title>Inddata</title>
+
+<p>Start styring ved at indtaste aktivitetsnavnet i inddataboksen og tryk på tasten <key>Retur</key>. Der er nogle få fif, som vil give dig mulighed for at angive flere detaljer løbende:</p>
+
+<steps>
+    <item><p>Brug @-symbolet til at tilføje en kategori</p></item>
+    <item><p>Alt efter et komma (,), vil blive gemt i beskrivelsesfeltet</p></item>
+    <item><p>For at angive tidspunkt løbende, indtast først tidspunkt i inddataboksen</p></item>
+</steps>
+
+<p>Nogle få eksempler:</p>
+<example>
+    <code>12:30-12:45 vander blomster</code>
+    <p>Glemte at notere den vigtige vanding af blomster efter frokost.</p>
+</example>
+<example>
+    <code>tomater@haven, graver huller</code>
+    <p>Har brug for flere tomater i haven. Graver huller er rent informativt, så tilføjede det som en beskrivelse.</p>
+</example>
+<example>
+    <code>-7 eksistentialisme, tanker om universets store vidder</code>
+    <p>Rettede information ved at informere program om, at jeg har lavet noget andet i de sidste syv minutter. Relativ tid virker kun for igangværende aktiviteter uden et sluttidspunkt.</p>
+</example>
+
+<p>Derudover kan du tilføje mærker i inddatafeltet for mærker. Mærker adskilles med et komma. Tryk på <key>Tab</key> når forslagsboksen kommer frem for at færdiggøre inddata til det første matchende mærke.</p>
+
+</page>

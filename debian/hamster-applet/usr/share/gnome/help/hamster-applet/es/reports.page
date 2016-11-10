@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="es">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Sacar los datos del Gestor de tiempo.</desc>
+</info>
+<title>Informar y exportar</title>
+
+<p>Además del formato HTML que se ofrece de forma predeterminada en el diálogo Guardar informe, la lista desplegable de formatos permite elegir formatos TSV (valores separados por tabulaciones, bueno para hojas de cálculo), XML e iCal.</p>
+<p>Para un acceso programado existe una API de D-Bus de la que se puede hacer introspección usando herramientas como <link href="https://fedorahosted.org/d-feet/">D-Feet</link>.</p>
+
+<note style="info">
+    <p>La forma más rápida de «sacar» datos del Gestor de tiempo es generando un informe HTML, mientras mantiene pulsada la tecla <key>Ctrl</key>, seleccione todas las celdas necesarias y después cópielas y pégelas en la aplicación de destino.</p>
+</note>
+</page>

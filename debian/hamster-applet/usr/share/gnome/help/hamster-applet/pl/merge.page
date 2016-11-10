@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="pl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Automatyczne rozwiązywanie konfliktów.</desc>
+</info>
+<title>Rozdzielanie czynności</title>
+
+<p>W programie <app>Zarządzanie czasem</app> zaimplementowanoa algorytm unikania nakładających się czynności. W momencie tworzenia nowej czynności w trakcie trwania innej, poprzednia czynność zostanie podzielona na dwie. W innych przypadkach czas trwania czynności zostanie skrócony.</p>
+<note style="info">
+    <p>Scalanie może okazać się przydatne podczas wprowadzania informacji za cały dzień. Należy rozpocząć od wprowadzenia pierwszej czynności i zaznaczenia pola wyboru „w trakcie”. Dla następnej czynności należy ustawić czas rozpoczęcia i znów zaznaczyć pole wyboru „w trakcie”. W tym przypadku czas zakończenia poprzedniej czynności zostanie dostosowany do czasu rozpoczęcia bieżącej czynności. Proces ten można powtarzać, aż do uzyskania zamierzonego efektu.</p>
+</note>
+</page>

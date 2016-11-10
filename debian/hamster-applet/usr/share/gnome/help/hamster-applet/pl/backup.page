@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="pl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Jak utworzyć kopię zapasową bazy czynności.</desc>
+</info>
+<title>Kopia zapasowa</title>
+
+<p>Czynności są zapisywanie w bazie danych SQLite, znajdującej się w pliku <file>~/.local/share/hamster-applet/hamster.db</file>. Plik ten może zostać skopiowany i przywrócony w trakcie pracy programu, zostanie on automatycznie wczytany.</p>
+<note style="info">
+    <p>Do przeglądania zawartości bazy czynności polecamy rozszerzenie <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>SQLite Manager</app></link> dla przeglądarki Mozilla Firefox.</p>
+</note>
+</page>

@@ -1,0 +1,42 @@
+From a216f10fb3ce737ddd7802561e8e95d1bb69a8ea Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Izidor=20Matu=C5=A1ov?= <izidor.matusov@gmail.com>
+Date: Sat, 16 Mar 2013 08:36:51 +0100
+Subject: [PATCH] Updates in DBus interface of GTG
+
+---
+ src/hamster/external.py | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/src/hamster/external.py b/src/hamster/external.py
+index 05624c3..f1a5d2b 100644
+--- a/src/hamster/external.py
++++ b/src/hamster/external.py
+@@ -58,7 +58,7 @@ def get_activities(self, query = None):
+ 
+             tasks = []
+             try:
+-                tasks = conn.get_tasks()
++                tasks = conn.GetTasks()
+             except dbus.exceptions.DBusException:  #TODO too lame to figure out how to connect to the disconnect signal
+                 self.__gtg_connection = None
+                 return self.get_activities(query) # reconnect
+@@ -77,12 +77,12 @@ def get_activities(self, query = None):
+ 
+     def __get_gtg_connection(self):
+         bus = dbus.SessionBus()
+-        if self.__gtg_connection and bus.name_has_owner("org.GTG"):
++        if self.__gtg_connection and bus.name_has_owner("org.gnome.GTG"):
+             return self.__gtg_connection
+ 
+-        if bus.name_has_owner("org.GTG"):
+-            self.__gtg_connection = dbus.Interface(bus.get_object('org.GTG', '/org/GTG'),
+-                                                   dbus_interface='org.GTG')
++        if bus.name_has_owner("org.gnome.GTG"):
++            self.__gtg_connection = dbus.Interface(bus.get_object('org.gnome.GTG', '/org/gnome/GTG'),
++                                                   dbus_interface='org.gnome.GTG')
+             return self.__gtg_connection
+         else:
+             return None
+-- 
+1.8.1.5
+

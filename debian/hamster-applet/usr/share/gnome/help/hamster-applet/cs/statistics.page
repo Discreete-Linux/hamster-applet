@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="statistics" xml:lang="cs">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Pár slov ke statistikám</desc>
+</info>
+<title>Statistiky</title>
+
+<p>Výsledky, které jsou dostupné přes odkaz <gui style="button">Zobrazit statistiky</gui>, jsou experimentální a jsou brány jako vyhodnocení faktů, které můžete porovnat s vašim vlastním pozorováním. Opravy jsou vítány.</p>
+<p>Nicméně, ukazatel "Začátky a konce" by vám měl dát jistou představu o využití vašeho času.</p>
+</page>

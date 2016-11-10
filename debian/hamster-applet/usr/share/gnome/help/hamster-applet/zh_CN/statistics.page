@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="statistics" xml:lang="zh_CN">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>解释各项统计条目</desc>
+</info>
+<title>统计</title>
+
+<p>通过访问 <gui style="button">显示统计</gui> 链接得到的结果，是实验用的，它们应该可以和你自己的经验相对照。欢迎指出不足之处。</p>
+<p>不过，“开始和结束”可以给出一些你活动时间长短的参考。</p>
+</page>

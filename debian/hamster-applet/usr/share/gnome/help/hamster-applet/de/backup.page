@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="de">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Sichern der Datenbank der Tätigkeiten.</desc>
+</info>
+<title>Datensicherung</title>
+
+<p>Die Tätigkeiten werden in einer SQLite-Datenbank gespeichert, die sich in <file>~/.local/share/hamster-applet/hamster.db</file> befindet. Die Datei kann gesichert und unmittelbar wiederhergestellt werden. Die Anwendung lädt die Daten automatisch nach einer kurzen Wartezeit neu.</p>
+<note style="info">
+    <p>Für die Betrachtung des Inhalts der Datenbank empfehlen wir den <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>SQLite Manager</app></link> für Mozilla Firefox.</p>
+</note>
+</page>

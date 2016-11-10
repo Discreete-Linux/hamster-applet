@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="da">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Automatisk konfliktløsning.</desc>
+</info>
+<title>Opdeling af aktiviteter</title>
+
+<p><app>Tidsstyring</app> gør sit bedste for at undgå overlapning i aktiviteter. Hvis du opretter en aktivitet i midten af en eksisterende aktivet, vil den tidligere aktivitet blive delt op i to. I andre tilfælde af overlapning vil de forrige poster blive formindsket.</p>
+<note style="info">
+    <p>Sammenføjning kan være en god ting når der indtastes information for hele dagen. Start med at indtaste den første aktivitet og vælg afkrydsningsboksen "i gang" for sluttiden. For den næste aktivitet igen sættes bare starttidspunktet og den markeres som igangværende. Observer hvordan sluttidspunktet for den forrige aktivitet bliver justeret til starttidspunktet for den nye. Gentag denne proces!</p>
+</note>
+</page>

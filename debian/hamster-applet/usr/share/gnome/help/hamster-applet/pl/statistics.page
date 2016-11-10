@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="statistics" xml:lang="pl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Informacje dotyczące interpretacji statystyk.</desc>
+</info>
+<title>Statystyki</title>
+
+<p>Wyniki dostępne po naciśnięciu przycisku <gui style="button">Wyświetl statystyki</gui> są eksperymentalne i stanowią interpretację faktów. Interpretacja ta powinna zostać porównana z własnymi obserwacjami. Poprawki do tego algorytmu są mile widziane.</p>
+<p>Jednakże sekcja „Rozpoczęcia i zakończenia” daje dobry pogląd na sposób wykorzystywanego czasu.</p>
+</page>

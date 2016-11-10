@@ -1,0 +1,19 @@
+Package: hamster-applet
+Version: 2.91.3+git20120514.b9fec3e1-1ubuntu1dsctl1
+Architecture: all
+Maintainer: Discreete Linux Team <info@discreete-linux.org>
+Installed-Size: 2866
+Depends: gconf2 (>= 2.28.1-2), python (>= 2.7), python (<< 2.8), python-cairo, python-gtk2 (>= 2.12.0), python-gconf, python-dbus, python-gobject-2 (>= 2.14.0), python-wnck, python-gnome2, python-xdg
+Recommends: python-notify, gnome-icon-theme, hamster-indicator
+Suggests: python-evolution
+Section: gnome
+Priority: optional
+Homepage: http://live.gnome.org/ProjectHamster
+Description: time tracking applet for GNOME
+ Project Hamster helps you to keep track of how much time you spend on various
+ activities during the day.  Whenever you move from one task to another, you
+ change your current activity in the GNOME applet.
+ .
+ It can present graphical statistics of how long you have spent on each task,
+ and may be useful for project management or keeping employee timesheets.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>

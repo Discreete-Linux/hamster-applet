@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="fr">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Résolution automatique de conflits.</desc>
+</info>
+<title>Découpage des activités</title>
+
+<p>Le <app>gestionnaire de temps</app> fait tout ce qu'il peut pour éviter des chevauchements dans les activités. Si vous créez une activité en plein milieu d'une activité existante, celle-ci sera coupée en deux. Dans les autres cas, les activités précédentes seront écourtées.</p>
+<note style="info">
+    <p>La fusion peut devenir commode lors de la saisie d'informations pour toute la journée. Commencez par saisir la première activité et cochez la case « en cours » pour l'heure de fin. Faites de même pour l'activité suivante et vous constaterez que l'heure de fin de l'activité précédente s'ajuste à l'heure de début de l'activité suivante. Vous pouvez continuer ainsi pour toutes les activités de votre journée !</p>
+</note>
+</page>

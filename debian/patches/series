@@ -1,0 +1,6 @@
+01-dont-fail-on-applet-import.patch
+02-dont-traceback-on-quit.patch
+04-lp926481.patch
+05-lp979707.patch
+06-gtg-dbus-update.patch
+ical-export.patch

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="zh_CN">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>快捷操作活动项的诀窍。</desc>
+</info>
+<title>输入</title>
+
+<p>要开始跟踪，在输入框里输入活动名称，然后按 <key>回车键</key>。还有一些方法可以让你设定更多细节：</p>
+
+<steps>
+    <item><p>添加项目时使用 @ 符号</p></item>
+    <item><p>在英文逗点(,)后的内容，将会保存到活动描述里</p></item>
+    <item><p>要设定时间，请在输入框开头输入它</p></item>
+</steps>
+
+<p>一些例子：</p>
+<example>
+    <code>12:30-12:45 浇花</code>
+    <p>标记备忘午饭后浇花的重要事情。</p>
+</example>
+<example>
+    <code>西红柿@花园, 翻地</code>
+    <p>在花园里种更多西红柿，翻地是一个具体的任务信息，因此把它添加到描述里。</p>
+</example>
+<example>
+    <code>-7 的存在，是考虑到更广阔的应用环境中</code>
+    <p>让应用程序提供正确信息，我已经做了一些，除了最后的7分钟。重新激活的时间仅仅用于正在进行的没有结束时间的活动。</p>
+</example>
+
+<p>在顶部，你可以在标签输入框添加标签，标签由逗号分割，按 <key>Tab</key> 键可以完成输入第一个匹配的标签。</p>
+
+</page>

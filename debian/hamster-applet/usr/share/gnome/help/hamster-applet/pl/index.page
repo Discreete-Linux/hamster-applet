@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index" xml:lang="pl">
+
+  <info>
+    <title type="text">Zarządzanie czasem</title>
+    <title type="link">Zarządzanie czasem</title>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Uznanie autorstwa 3.0 Polska</p>
+    </license>
+  </info>
+
+  <title>Zarządzanie czasem</title>
+</page>

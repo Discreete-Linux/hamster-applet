@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="tracking" xml:lang="cs">
+<info>
+    <link type="seealso" xref="input"/>
+    <link type="guide" xref="index"/>
+    <desc>Tipy na efektivní sledování vašich činností</desc>
+</info>
+
+<title>Jak sledovat čas</title>
+
+<p>Vaše zvyky ohledně sledování času se budou odvíjet od toho, kvůli čemu data sbíráte. Co plánujete dělat s daty? Jde o pouhou zvědavost nebo o pracovní povinnost? A do jaké úrovně podrobností vás zajímají výsledky?</p>
+
+<section id="granularity">
+<title>Četnost</title>
+<p>Navržené tempo je 5 až 30 činností za den.</p>
+<p>Záměrem aplikace <app>Měřič času</app> je vyhnout se podrobnému sledování, tak aby člověk nestrávil více času nad sledováním než nad prací! Na druhou stranu, sledování bez dostatku podrobností by mohlo vést k tomu, že nebude dostatek dat, která by mohla být užitečná o měsíc později.</p>
+</section>
+
+<section id="fields">
+<title>Co bych měl psát do každého pole?</title>
+
+<p>U jednoduchých činností, u kterých neexistuje plán, použijte úkon jako název <gui>činnosti</gui> a <gui>kategorii</gui> pro širší kontext. Například: <input>oběd@práce</input>.</p>
+<p>Pro důmyslnější sledování zkuste popsat vaši činnost jedním nebo dvěma slovy ("dům na stromě", "projekt x" nebo podobně) a tento titulek použijte v poli <gui>činnost</gui>. <gui>Kategorii</gui> použijte k popisu činnosti v širším kontextu - jde o soukromí nebo práci, nebo něco jiného? Nakonec použijte pole <gui>štítky</gui> k popisu vašeho aktuálního úkonu - jedná se o čtení nebo konstruování, psaní nebo malování?</p>
+<p>Tento přístup vám umožní sledovat, kolik jste toho přečetli během všech svých projektů (podle štítku), kolik času jste strávili nad svými koníčky (podle kategorie) a kolik času ze všech svých prací v rámci projektu x jste strávili analyzováním (podle činnosti a štítku).</p>
+</section>
+
+<section>
+<title>Tipy na vylepšení vašich sledovaných dat</title>
+
+<list>
+    <item><p>Činnosti popisujte tak, aby byly pro každého srozumitelné. Název činnosti je také jedinou informací, která se objeví na panelu. Budete schopni určit, na čem právě pracujete, při pouhém pohledu na název činnosti?</p></item>
+
+    <item><p>Udržujte svůj seznam kategorií malý (tak 3 až 7) a vybírejte takové, u kterých je pravděpodobné, že se časem nezmění. Také by se mělo jednat o všeobecné názvy, jako např.: "práce", "soukromí", "různé".</p></item>
+
+    <item><p>Pole s popisem můžete použít pro krátkodobé informace jako např. referenční čísla. Vyhledávání v okně <gui>Přehled</gui> nahlíží také do pole s popisem, takže hledání činností, ve kterých uvedete určité referenční číslo, bude tak snadné jako jeho napsání do vyhledávacího pole a stisknutí klávesy <key>Enter</key>.</p></item>
+
+    <item><p>Činnosti a štítky můžete přidávat a odebírat podle potřeby. Pokud si myslíte, že činnost je již úplně ukončena, odstraňte ji tak, aby se již nezobrazovala v automatickém doplňování. Nedělejte si starosti: data (činnosti v protokolu) nebudou smazána. Jedná se pouze o "provozní seznam".</p></item>
+</list>
+</section>
+
+
+</page>

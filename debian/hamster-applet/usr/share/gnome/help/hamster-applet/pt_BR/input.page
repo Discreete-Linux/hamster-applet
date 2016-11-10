@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="input" xml:lang="pt_BR">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Truques para agilizar a digitação de uma atividade.</desc>
+</info>
+<title>Entrada</title>
+
+<p>Para iniciar o registro, digite o nome da atividade na caixa de entrada e pressione a tecla <key>Enter</key>. Existem alguns truques que podem lhe permitir especificar mais detalhes rapidamente:</p>
+
+<steps>
+    <item><p>Use o símbolo @ para adicionar uma categoria</p></item>
+    <item><p>Tudo depois de uma vírgula (,) será armazenado no campo de descrição</p></item>
+    <item><p>Para especificar horários rapidamente, digite-o primeiro na caixa de entrada</p></item>
+</steps>
+
+<p>Alguns exemplos:</p>
+<example>
+    <code>12:30-12:45 regar as flores</code>
+    <p>Esqueci que é mais importante regar as flores que almoçar.</p>
+</example>
+<example>
+    <code>tomates@jardim, cavando buracos</code>
+    <p>É necessário ter mais tomates no jardim. Cavar buracos é apenas uma informação, então adicionei-o como uma descrição.</p>
+</example>
+<example>
+    <code>-7 existencialismo, pensando sobre a imensidão do universo</code>
+    <p>Informações foram corrigidas informando o aplicativo que eu estive fazendo outra coisa nos último sete minutos. Horários relativos funcionam somente com atividades em execução sem um horário final.</p>
+</example>
+
+<p>Ainda, você pode adicionar etiquetas no campo de entrada de etiquetas. Etiquetas são delimitadas por uma vírgula. Pressione a tecla <key>Tab</key> quando a caixa de sugestão aparecer para completar a entrada com a primeira etiqueta correspondente.</p>
+
+</page>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="tracking" xml:lang="es">
+<info>
+    <link type="seealso" xref="input"/>
+    <link type="guide" xref="index"/>
+    <desc>Consejos acerca de cómo seguir el tiempo de sus actividades de forma efectiva.</desc>
+</info>
+
+<title>¿Cómo seguir el tiempo?</title>
+
+<p>Sus hábitos de seguimiento de tiempo deberían depender de la razón por la que recolecta los datos. ¿Qué quiere hacer con ellos? ¿Es simple curiosidad o una necesidad del trabajo? ¿Y en qué detalle le interesan los resultados?</p>
+
+<section id="granularity">
+<title>Granularidad</title>
+<p>Una pauta sugerida es tener entre 5 y 30 actividades por día.</p>
+<p>La intención del <app>Gestor de tiempo</app> es evitar los microseguimientos de tal forma que el usuario no gaste más tiempo en el seguimiento que en las actividades en si. Pero no seguir con suficiente detalle podría acabar con información insuficiente un mes después.</p>
+</section>
+
+<section id="fields">
+<title>¿Qué debería escribir en cada caja?</title>
+
+<p>Para actividades simples que no tienen un proyecto, use la acción como el nombre de la <gui>actividad</gui> y la <gui>categoría</gui> para un contexto más amplio. Ejemplo: <input>comer@trabajo</input>.</p>
+<p>Para un seguimiento más sofisticado intente resumir su actividad en una o dos palabras («árbol de casa», «proyecto x», o similar) y use ese resumen en el campo <gui>actividad</gui>. Use la <gui>categoría</gui> para describir la actividad en su contexto más amplio; ¿es un trabajo privado u otra cosa? Finalmente use las <gui>etiquetas</gui> para describir su acción actual; ya sea leyendo, construyendo, escribiendo o pintando.</p>
+<p>Ésta aproximación le permitirá ver cuánta lectura ha realizado para todos sus proyectos (por etiqueta), cuánto tiempo ha empleado en sus hobbies (por categoría) y cuánto tiempo ha dedicado al proyecto x que ha estado analizando (por actividad y etiqueta).</p>
+</section>
+
+<section>
+<title>Sugerencias para mejorar el seguimiento de sus datos</title>
+
+<list>
+    <item><p>Nombre las actividades para que se puedan distinguir fácilmente entre ellas. El nombre de la actividad es también lo único que aparece en el panel. ¿Será capaz de determinar en qué está trabajando simplemente mirando el nombre de la actividad?</p></item>
+
+    <item><p>Mantenga su número de categorías bajo (entre 3 y 7) y elija unas que probablemente no cambien a lo largo del tiempo. También, manténgalas genéricas. Por ejemplo: «trabajo», «privado», «varios».</p></item>
+
+    <item><p>Use el campo de descripción para información a corto plazo, como números de errores. La búsqueda en la ventana de vista general también busca en el campo de descripción, de tal forma que buscar actividades donde menciona el error o clave específica, es tan simple como escribirlo en la caja de búsqueda y pulsar <key>Intro</key>..</p></item>
+
+    <item><p>Las actividades y etiquetas pueden aparecer y desaparecer según las necesidades. Una vez que crea que ha terminado con una actividad; quítela para que no aparezca en el autocompletado. No se preocupe, los hechos (actividades en el registro) se quedarán intactas. Es simplemente la «lista operacional».</p></item>
+</list>
+</section>
+
+
+</page>

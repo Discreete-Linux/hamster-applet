@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="es">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Cómo respaldar la base de datos de actividades.</desc>
+</info>
+<title>Respaldo</title>
+
+<p>Las actividades se almacenan en una base de datos SQLite ubicada en <file>~/.local/share/hamster-applet/hamster.db</file>. El archivo se puede respaldar y restaurar al vuelo. La aplicación recargará automáticamente los datos tras un corto tiempo.</p>
+<note style="info">
+    <p>Para ver el contenido de la base de datos le sugerimos usar <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>SQLite Manager</app></link> de Mozilla Firefox.</p>
+</note>
+</page>

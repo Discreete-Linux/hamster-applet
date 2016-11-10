@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="cs">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Získání dat z Měřiče času</desc>
+</info>
+<title>Zprávy a jejich export</title>
+
+<p>Kromě formátu HTML, který je standardně nabízen v dialogu Uložit zprávu, nabízí rozbalovací seznam na výběr také formáty TSV (hodnoty oddělené tabulátory, vhodné pro tabulkové procesory), XML a iCal.</p>
+<p>Pro přístup z jiných programů existuje rozhraní D-Bus API, které může být prohlíženo pomocí nástrojů jako <link href="https://fedorahosted.org/d-feet/">D-Feet</link>.</p>
+
+<note style="info">
+    <p>Nejrychlejším způsobem získání dat z Měřiče času je vygenerování zprávy ve formátu HTML. Při stisknuté klávese <key>Ctrl</key> vyberte všechny potřebné buňky a pak je zkopírujte a vložte do cílové aplikace.</p>
+</note>
+</page>

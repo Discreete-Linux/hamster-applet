@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="pl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Pozyskiwanie danych z programu Zarządzanie czasem.</desc>
+</info>
+<title>Raportowanie i eksportowanie</title>
+
+<p>Oprócz formatu HTML, który jest dostępny domyślnie w oknie dialogowym „Zapisz sprawozdanie”, dostępne są również formaty TSV (wartości oddzielone znakiem tabulatora, dobry dla arkuszy kalkulacyjnych), XML oraz iCal.</p>
+<p>Dostęp programowy możliwy jest za pomocą interfejsu D-Bus, które można podejrzeć za pomocą narzędzi takich jak <link href="https://fedorahosted.org/d-feet/">D-Feet</link>.</p>
+
+<note style="info">
+    <p>Najszybszych sposobem na pozyskanie danych z programu Zarządzanie czasem jest utworzenie raportu w formacie HTML. Następnie, przytrzymując klawisz <key>Ctrl</key>, należy zaznaczyć wszystkie potrzebne komórki i skopiować je do docelowego programu.</p>
+</note>
+</page>

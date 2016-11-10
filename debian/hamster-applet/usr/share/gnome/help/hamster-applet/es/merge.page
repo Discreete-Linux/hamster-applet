@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="es">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Resolución automática de conflictos</desc>
+</info>
+<title>Partir actividades</title>
+
+<p>El <app>Gestor de tiempo</app> hace lo mejor que puede para evitar solapamientos entre actividades. Si crea una actividad en el medio de una actividad existente, la anterior se partirá en dos. En otros casos de solapamiento se encogerán las entradas anteriores.</p>
+<note style="info">
+    <p>Mezclar el aspecto puede ser útil al introducir información para todo el día. Comience introduciendo la primera actividad del día y establezca el tiempo en «en progreso». Para la siguiente actividad, de nuevo, establezca la hora de inicio y márquela como en progreso. Observe cómo la hora de finalización de la actividad anterior se ajusta a la hora de inicio de la actividad nueva.</p>
+</note>
+</page>

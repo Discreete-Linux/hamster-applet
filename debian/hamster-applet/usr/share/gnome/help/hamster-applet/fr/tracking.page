@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="tracking" xml:lang="fr">
+<info>
+    <link type="seealso" xref="input"/>
+    <link type="guide" xref="index"/>
+    <desc>Astuces pour bien gérer vos activités.</desc>
+</info>
+
+<title>La gestion du temps</title>
+
+<p>Les raisons pour lesquelles vous accumulez des données sur votre emploi du temps vont déterminer la manière d'effectuer le suivi de vos activités. Que voulez-vous faire avec les données ? Est-ce juste de la curiosité ou une nécessité professionnelle ? Quel niveau de détails vous intéresse dans les résultats ?</p>
+
+<section id="granularity">
+<title>Granularité</title>
+<p>Un bon rythme est d'avoir 5 à 30 activités par jour.</p>
+<p>Le but du <app>gestionnaire de temps</app> est d'éviter la micro-gestion afin que vous ne passiez pas plus de temps à gérer vos activités qu'à les pratiquer ! Cependant, des détails insuffisants peuvent provoquer un manque de données qui vous seraient utiles un mois plus tard.</p>
+</section>
+
+<section id="fields">
+<title>Que dois-je écrire dans chaque champ ?</title>
+
+<p>Pour des activités simples qui ne font pas partie d'un projet, utilisez l'action comme nom d'<gui>activité</gui> et la <gui>catégorie</gui> comme contexte plus large. Par exemple : <input>déjeuner@travail</input>.</p>
+<p>Pour une gestion plus sophistiquée, essayez de décrire vos activités en un ou deux mots (« arbre maison », « projet x » ou quelque chose de similaire) et utilisez cette légende dans le champ <gui>activité</gui>. Utilisez la <gui>catégorie</gui> pour décrire l'activité dans un contexte plus large - est-ce privé, professionnel ou autre chose ? Enfin, utilisez les <gui>étiquettes</gui> pour décrire l'action précise - est-ce de la lecture ou de la création, de l'écriture ou du dessin.</p>
+<p>Cette approche vous permet de voir combien de temps de lecture vous avez consacré dans tous vos projets (par étiquette), combien de temps consacré à vos passe-temps (par catégorie) et combien de temps à faire de l'analyse pour votre travail dans le projet x (par activité et étiquette)</p>
+</section>
+
+<section>
+<title>Astuces pour améliorer vos données de suivi</title>
+
+<list>
+    <item><p>Nommez les activités de façon à pouvoir les différencier facilement l'une de l'autre. Le nom de l'activité est également la seule information qui apparaît dans le tableau de bord. Êtes-vous capable de déterminer sur quoi vous travaillez rien qu'en voyant le nom de l'activité ?</p></item>
+
+    <item><p>Réduisez au minimum la liste des catégories (disons 3 à 7) et choisissez-les pour qu'elles varient le moins possible dans le temps. Elles devraient être génériques, comme par exemple : « travail », « privé », « divers ».</p></item>
+
+    <item><p>Utilisez le champ de description pour des informations brèves comme des numéros de référence. La recherche dans la fenêtre <gui>Résumé</gui> se fait également dans ce champ ; ainsi, pour rechercher des activités pour lesquelles vous avez inscrit un numéro de référence particulier, il suffit de le saisir dans le champ de recherche et d'appuyer sur <key>Entrée</key>.</p></item>
+
+    <item><p>Les activités et les étiquettes peuvent apparaître et disparaître selon les besoins. Une fois que vous pensez en avoir fini pour de bon avec une activité, supprimez-la afin qu'elle n'apparaissent plus dans les propositions d'auto-complétion. Ne vous inquiétez pas : les faits (activités journalisées) ne sont pas détruits. Il s'agit juste de la « liste opérationnelle ».</p></item>
+</list>
+</section>
+
+
+</page>

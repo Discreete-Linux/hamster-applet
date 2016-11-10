@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index" xml:lang="ro">
+
+  <info>
+    <title type="text">Pontaj activități</title>
+    <title type="link">Pontaj activități</title>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Distribuire în condiții identice 3.0</p>
+    </license>
+  </info>
+
+  <title>Pontaj activități</title>
+</page>

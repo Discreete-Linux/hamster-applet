@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="pt_BR">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Como realizar o backup do banco de dados de atividades.</desc>
+</info>
+<title>Backup</title>
+
+<p>As atividades são armazenadas em um banco de dados SQLite, localizado em <file>~/.local/share/hamster-applet/hamset.db</file>. O arquivo pode ser salvo em um backup e restaurado quando necessário. A aplicação irá recarregar os dados automaticamente após um curto intervalo de tempo.</p>
+<note style="info">
+    <p>Para visualizar o conteúdo do banco de dados, nós podemos sugerir o uso do <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>SQLite Manager</app></link> para o Mozilla Firefox.</p>
+</note>
+</page>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="gl">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Sacar os datos do Seguidor de tempo.</desc>
+</info>
+<title>Informar e exportar</title>
+
+<p>Ademáis do formato HTML que é ofrecido de forma predefinida no diálogo de Gardar informe, o despregábel de formato permítelle seleccionar o formato TSV (Valores separados por tabulacións, bo para follas de cálculo), XML e iCal.</p>
+<p>Para un acceso programático existe unha API de D-Bus da que se pode facer introspección usando ferramentas como <link href="https://fedorahosted.org/d-feet/">D-Feet</link>.</p>
+
+<note style="info">
+    <p>A forma máis rápida de «sacar» datos do Xestor de tempo é xerando un informe HTML, mentres mantén premida a tecla <key>Ctrl</key>, seleccione todas as celas necesarias e despois cópieas e pégueas no aplicativo de destino.</p>
+</note>
+</page>

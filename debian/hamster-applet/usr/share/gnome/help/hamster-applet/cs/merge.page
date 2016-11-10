@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="cs">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Automatické řešení konfliktů</desc>
+</info>
+<title>Rozdělování činností</title>
+
+<p><app>Měřič času</app> se vždy snaží předcházet překrývání činností. Pokud vytvoříte činnost uprostřed existující činnosti, starší se rozdělí na dvě. V jiných případech překrytí dojde ke zkrácení předchozích záznamů.</p>
+<note style="info">
+    <p>Slučování může přijít vhod při zadávání informací za celý den. Začněte zadáním první činnosti a jako čas ukončení zaškrtněte pole "probíhá". U další činnosti opět nastavte pouze čas zahájení a označte ji jako probíhající. Dbejte na to, aby čas ukončení předchozí činnosti souhlasil s časem zahájení nové činnosti. Takto můžete pokračovat dále.</p>
+</note>
+</page>

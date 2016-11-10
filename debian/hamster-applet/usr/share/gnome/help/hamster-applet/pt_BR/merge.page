@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="merge" xml:lang="pt_BR">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Resolução automática de conflito.</desc>
+</info>
+<title>Dividindo atividades</title>
+
+<p>O <app>Gerenciador de tempo</app> faz o seu melhor para evitar sobreposições de atividades. Se você criar uma atividade em meio a uma outra atividade existente, esta será dividida em duas. Em outros casos de sobreposição, as entradas anteriores serão encolhidas.</p>
+<note style="info">
+    <p>O recurso de combinação é útil ao fornecer informações para o dia inteiro. Inicie digitando a primeira atividade e selecione a caixa de seleção "em progresso" para o horário de finalização. Para a próxima atividade, configure novamente somente o horário de início e marque-a como em execução. Observe como o tempo de finalização da tarefa anterior é ajustado ao horário de início da nova tarefa. Repita o processo até ficar feliz!</p>
+</note>
+</page>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="statistics" xml:lang="da">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Bemærkning om fortolkning af statistik.</desc>
+</info>
+<title>Statistik</title>
+
+<p>Resultaterne som er tilgængelige via henvisningen <gui style="button">Vis statistik</gui> er eksperimentelle og de er en fortolkning af fakta. Denne fortolkning skal sammenlignes med dine egne observationer. Bidrag (patches) er velkomne.</p>
+<p>"Starter og slutter" bør dog give dig en ide om din aktive tid.</p>
+</page>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="reports" xml:lang="fr">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Exploitation des données du gestionnaire de temps.</desc>
+</info>
+<title>Rapports et exportations</title>
+
+<p>À part le format HTML utilisé par défaut dans la boîte de dialogue d'enregistrement des rapports, la liste déroulante de formats vous permet de choisir parmi les formats TSV (Tab Separated Values, soit « Valeurs séparées par des tabulations », format bien adapté aux tableurs), XML et iCal.</p>
+<p>Pour les programmeurs, il existe une API D-Bus, qui peut être examinée en profondeur avec des outils comme <link href="https://fedorahosted.org/d-feet/">D-Feet</link>.</p>
+
+<note style="info">
+    <p>La façon la plus rapide pour extraire des données du gestionnaire de temps est de générer un rapport HTML. Tout en appuyant sur la touche <key>Ctrl</key>, sélectionnez toutes les cellules voulues, puis copiez et collez-les dans l'application cible.</p>
+</note>
+</page>

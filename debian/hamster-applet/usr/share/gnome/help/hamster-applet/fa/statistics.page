@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="statistics" xml:lang="fa">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>نکته‌هایی بر تفسیر آمارها.</desc>
+</info>
+<title>آمارها</title>
+
+<p>
+    The results that are accessible via the
+    <gui style="button">Show Statistics</gui> link are experimental and
+    they are an interpretation of the facts. This interpretation should be compared
+    with your own observations. Patches are welcome.
+</p>
+<p>در هر حال، «آغازها و پایان‌ها» باید ایده‌هایی راجع به زمان فعال شما بدهند.</p>
+</page>

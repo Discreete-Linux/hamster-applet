@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/waf.mk
+include /usr/share/cdbs/1/rules/utils.mk
+include /usr/share/gnome-pkg-tools/1/rules/uploaders.mk
+-include /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk
+
+binary-install/hamster-applet::
+	cd debian/hamster-applet && \
+		rm -rf usr/lib/bonobo && \
+		rm -f usr/lib/hamster-applet/hamster-applet && \
+		rm -f usr/share/applications/hamster-applet.desktop
+	dh_python2 -phamster-applet
+	dh_gconf -phamster-applet
+
+clean::
+	find wafadmin -name "*.pyc" -delete

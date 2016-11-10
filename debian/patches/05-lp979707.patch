@@ -1,0 +1,18 @@
+Author: Gediminas Paulauskas <menesis@pov.lt>
+Description: fix a crash in Overview
+ If you right-click on an activity and select "Add new"
+Bug-Ubuntu: https://launchpad.net/bugs/979707
+Forwarded-Upstream: no
+Index: hamster-applet-2.91.3+git20120514.b9fec3e1/src/hamster/overview.py
+===================================================================
+--- hamster-applet-2.91.3+git20120514.b9fec3e1.orig/src/hamster/overview.py	2013-03-22 16:09:35.000000000 -0500
++++ hamster-applet-2.91.3+git20120514.b9fec3e1/src/hamster/overview.py	2013-03-22 16:09:35.000000000 -0500
+@@ -381,7 +381,7 @@
+         elif isinstance(fact, dt.date):
+             selected_date = fact
+         else:
+-            selected_date = fact["date"]
++            selected_date = fact.date
+ 
+         dialogs.edit.show(self, fact_date = selected_date)
+ 

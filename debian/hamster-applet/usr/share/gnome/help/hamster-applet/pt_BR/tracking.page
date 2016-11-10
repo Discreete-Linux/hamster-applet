@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="tracking" xml:lang="pt_BR">
+<info>
+    <link type="seealso" xref="input"/>
+    <link type="guide" xref="index"/>
+    <desc>Dicas de como registrar suas atividades efetivamente.</desc>
+</info>
+
+<title>Como registrar o tempo</title>
+
+<p>Seus hábitos de gerencimento de tempo serão ditados pelo motivo de você estar colhendo os dados. Isto é, o que você quer fazer com os dados? É uma simples curiosidade, ou um requerimento de trabalho? E você está interessado nos resultados em qual nível de detalhamento?</p>
+
+<section id="granularity">
+<title>Granularidade</title>
+<p>Um ritmo sugerido é ter de 5 a 30 atividades por dia.</p>
+<p>A intenção do <app>Gerenciador de tempo</app> é evitar micro-registros de modo que não acabe gastando mais tempo ao registrar do que ao realizar as atividades em si! Entretanto, registrar com detalhamento insuficiente pode resultar em não existir nenhum dado útil para você um mês depois.</p>
+</section>
+
+<section id="fields">
+<title>O que eu deveria escrever em cada caixa?</title>
+
+<p>Para atividades simples que não possuam um projeto, use a ação como nome da <gui>atividade</gui> e a <gui>categoria</gui> para um contexto mais amplo. Por exemplo: <input>almoço@trabalho</input>.</p>
+<p>Para um registro mais sofisticado tente resumir sua atividade em uma ou duas palavras ("casa na árvore", "projeto x", ou similar) e use este resumo no campo <gui>atividade</gui>. Use o campo <gui>categoria</gui> para descrever a atividade em seu contexto mais amplo - isto é pessoal, de trabalho ou algo mais? Finalmente use <gui>etiquetas</gui> para descrever sua ação atual - está lendo ou construindo, escrevendo ou pintando.</p>
+<p>Esta abordagem lhe permitirá ver quantas leituras você fez em todos os seus projetos (por etiqueta), quanto tempo você gastou em seu hobbies (por categoria) e quanto tempo de todo o seu trabalho no projeto x você gastou analisando (por atividade e etiqueta) </p>
+</section>
+
+<section>
+<title>Dicas para melhorar seus dados de registro</title>
+
+<list>
+    <item><p>Dê nome a atividades de modo que possam ser facilmente distinguidas uma das outras. O nome da atividade é também a única informação que aparece no painel. Você será capaz de determinar no que você está trabalhando apenas olhando o nome da atividade?</p></item>
+
+    <item><p>Mantenha a sua lista de categorias pequena (digamos, de 3 a 7) e escolha aquelas que não costumam mudar com o tempo. Ainda mais, torne-as genéricas. Por exemplo: "trabalho", "pessoal", "diversos".</p></item>
+
+    <item><p>Use o campo de descrição para informações de curto prazo como referência a um número. A pesquisa na janela <gui>Visão geral</gui> também examina o campo de descrição, então encontrar atividades aonde você mencionou o número de referência específico será tão fácil quanto digitar na caixa de busca e pressionar <key>Enter</key>.</p></item>
+
+    <item><p>Atividades e etiquetas podem ir e vir conforme necessário. Uma vez que você ache que terminou uma atividade, será melhor removê-la para que ela não apareça no completado automaticamente nunca mais. Não se preocupe: os acontecimentos (atividades no registro) não serão excluídos. Isto é apenas a "lista operacional".</p></item>
+</list>
+</section>
+
+
+</page>

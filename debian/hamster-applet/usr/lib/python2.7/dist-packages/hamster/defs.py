@@ -1,0 +1,5 @@
+DATA_DIR = "/usr/share"
+LIB_DIR = "/usr/lib"
+VERSION = "2.91.3"
+PACKAGE = "hamster-applet"
+PYTHONDIR = "/usr/lib/python2.7/dist-packages"

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="backup" xml:lang="ro">
+<info>
+  <link type="guide" xref="index"/>
+  <desc>Cum să faceți copie de siguranță bazei de date cu activități</desc>
+</info>
+<title>Copie de siguranță</title>
+
+<p>Activitățile sunt stocate într-o bază de date SQLite, situată la <file>~/.local/share/hamster-applet/hamster.db</file>. Puteți crea copie de siguranță și să îl restaurați în timpul rulării. Aplicația va reîncărca informațiile automat după un timp scurt.</p>
+<note style="info">
+    <p>Pentru a vedea conținutul bazei de date vă putem sugera să utilizați <link href="https://addons.mozilla.org/en-US/firefox/addon/5817"><app>SQLite Manager</app></link> pentru Mozilla Firefox.</p>
+</note>
+</page>
